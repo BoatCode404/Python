@@ -31,4 +31,7 @@ print("Yo soy" + "julian")
 
 # Asi se suma una cadena de texto y un nuero convertido en cadena de texto con str #
 print("julian " + str(5) )
+
+myFloat=2.5*2
+print("hola" * int(myFloat))
 ```
