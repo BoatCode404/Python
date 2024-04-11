@@ -34,4 +34,11 @@ print("julian " + str(5) )
 
 myFloat=2.5*2
 print("hola" * int(myFloat))
+
+## Ejemplo de operadores arigmeticos ##
+print(3 > 1)
+print(3 < 1)
+print(3 >= 1)
+print(3 <= 1)
+print(3 != 1)
 ```
