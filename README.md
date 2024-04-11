@@ -5,11 +5,11 @@
 #Comience creando un archivo nuevo o cargando un archivo existente . Recomendamos que cada repositorio incluya README , LICENSE y .gitignore .
 -->
 
-## Operadores aritméticos:
-#°Suma(+): a + b
-# °Resta(-): a - b
-# °Multiplicación(*): a * b
-# °División(/): a / b
-# °Módulo(%): a % b
-# °División de piso(//): a // b
-# °Exponenciación(**): a ** b
+### Operadores aritméticos:
+- Suma(+): a + b
+- Resta(-): a - b
+- Multiplicación(*): a * b
+- División(/): a / b
+- Módulo(%): a % b
+- División de piso(//): a // b
+- Exponenciación(**): a ** b
