@@ -1,4 +1,4 @@
-### Funciones De python 
+# Funciones De python 
 
-# type()= Sirve para ver el tipo de dato de una variable
-# Srt()= 
+### type()= Sirve para ver el tipo de dato de una variable
+### Srt()= 
