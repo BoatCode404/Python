@@ -6,7 +6,7 @@
 -->
 
 ## Operadores aritméticos:
-# °Suma(+): a + b
+#°Suma(+): a + b
 # °Resta(-): a - b
 # °Multiplicación(*): a * b
 # °División(/): a / b
