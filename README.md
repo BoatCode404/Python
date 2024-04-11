@@ -28,5 +28,7 @@ print("Esto es una division al piso ",5//3)
 
 # Asi se suman dos cadenas de texto #
 print("Yo soy" + "julian")
+
+# Asi se suma una cadena de texto y un nuero convertido en cadena de texto con str #
 print("julian " + str(5) )
 ```
