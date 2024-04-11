@@ -15,9 +15,11 @@
 - Exponenciación(**): a ** b
 
 ## Ejemplo de operadores ##
+```py
 print("Esto es una suma ",5+3)
 print("Esto es una resta ",5-3)
 print("Esto es una division ",5/3)
 print("Esto es una multiplicacion ",5*3)
 print("Esto es una exponensiacion ",5**3)
 print("Esto es una division al piso ",5//3)#la division al piso o flor division , se usa para generar una division con un resultado entero y no decimal si es el caso ##
+```
