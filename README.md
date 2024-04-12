@@ -42,3 +42,6 @@ print(3 >= 1)
 print(3 <= 1)
 print(3 != 1)
 ```
+## #30NitesOfCode:
+  [Check out my progress!](https://www.codedex.io/@boatcode40411898/30-nites-of-code)  
+  ![@boatcode40411898 #30NitesOfCode](https://www.codedex.io/api/petStatus?user=boatcode40411898)
