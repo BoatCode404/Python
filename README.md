@@ -54,10 +54,10 @@ progress = 0.75
 exp = 60
 verified = True
 ```
-#### El =signo igual significa asignación:
-#### Estamos asignando el valor de cadena 'Erlich Bachman'a la variable name.
-#### Estamos asignando el valor numérico 16180339887a la variable user_id.
-#### Estamos asignando el valor numérico 0.75a la variable progress.
-#### Estamos asignando el valor numérico 60a la variable exp.
-#### Estamos asignando el valor de verdad Truea la variable verified.
-#### También podemos cambiar el valor de una variable o imprimirlo:
+### El =signo igual significa asignación:
+### Estamos asignando el valor de cadena 'Erlich Bachman'a la variable name.
+### Estamos asignando el valor numérico 16180339887a la variable user_id.
+### Estamos asignando el valor numérico 0.75a la variable progress.
+### Estamos asignando el valor numérico 60a la variable exp.
+### Estamos asignando el valor de verdad Truea la variable verified.
+### También podemos cambiar el valor de una variable o imprimirlo:
