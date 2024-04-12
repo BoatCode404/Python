@@ -42,3 +42,8 @@ print(3 >= 1)
 print(3 <= 1)
 print(3 != 1)
 ```
+
+# Variables​
+##En programación, las variables se utilizan para almacenar valores de datos. Cada variable tiene un nombre y contiene un valor. 📦
+##El nombre de la variable puede constar de letras, números y el _carácter de subrayado.
+##Todos estos son nombres y valores de variables válidos:
