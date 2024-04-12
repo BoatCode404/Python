@@ -1,3 +1,6 @@
+
+![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/cb3ccf6d-3c2a-42d3-8e5a-2b10967beca1)
+
 # 50 ideas de proyectos de terminal con Python
 - Requisito previo: Fundamentos de programación
 - Versiones: Python 3.10
