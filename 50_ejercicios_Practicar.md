@@ -8,7 +8,6 @@
 
 - Nuestro equipo ha compilado una lista de 50 ideas de proyectos, desde intermedios hasta avanzados, para que usted pueda desarrollarlos usted mismo, sus amigos o su familia. ¡Esperamos que tu creatividad fluya e inspirarte a lanzarte a un proyecto personal! 🐍
 
-# 50 Ideas
 ## Nivel 1
 El primer lote es la forma perfecta de empezar.
 
