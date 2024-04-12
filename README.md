@@ -47,3 +47,10 @@ print(3 != 1)
 ### En programación, las variables se utilizan para almacenar valores de datos. Cada variable tiene un nombre y contiene un valor. 📦
 ### El nombre de la variable puede constar de letras, números y el _carácter de subrayado.
 ### Todos estos son nombres y valores de variables válidos:
+```py
+name = 'Erlich Bachman'
+user_id = 16180339887
+progress = 0.75
+exp = 60
+verified = True
+```
