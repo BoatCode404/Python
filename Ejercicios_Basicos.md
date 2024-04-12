@@ -1,4 +1,7 @@
 # Ejercicios Basicos en Python
+
+![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/123a5cfa-d26c-43bf-8df9-82f591ba4dfe)
+
 ```py
 ''''
 1.Declara tu edad como variable entera
