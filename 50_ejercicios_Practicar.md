@@ -1,12 +1,12 @@
 # 50 ideas de proyectos de terminal con Python
-Requisito previo: Fundamentos de programación
-Versiones: Python 3.10
-Tiempo de lectura: 20 minutos
+- Requisito previo: Fundamentos de programación
+- Versiones: Python 3.10
+- Tiempo de lectura: 20 minutos
 
 # Introducción
-Si finalizó los desafíos de Codedex y se pregunta: "¿Qué debo construir ahora?" Has venido al lugar correcto.
+- Si finalizó los desafíos de Codedex y se pregunta: "¿Qué debo construir ahora?" Has venido al lugar correcto.
 
-Nuestro equipo ha compilado una lista de 50 ideas de proyectos, desde intermedios hasta avanzados, para que usted pueda desarrollarlos usted mismo, sus amigos o su familia. ¡Esperamos que tu creatividad fluya e inspirarte a lanzarte a un proyecto personal! 🐍
+- Nuestro equipo ha compilado una lista de 50 ideas de proyectos, desde intermedios hasta avanzados, para que usted pueda desarrollarlos usted mismo, sus amigos o su familia. ¡Esperamos que tu creatividad fluya e inspirarte a lanzarte a un proyecto personal! 🐍
 
 # 50 Ideas
 ## Nivel 1
