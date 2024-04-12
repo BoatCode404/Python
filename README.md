@@ -67,3 +67,4 @@ xp = 80
 
 print(xp)    # Output: 80
 ```
+- Aquí, estamos asignando el valor numérico 70a la variable xp. Luego, estamos reasignando el valor numérico 80a la misma variable. E imprimirlo.
