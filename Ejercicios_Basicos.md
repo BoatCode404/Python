@@ -49,3 +49,131 @@ print("pendiente es :",m)
 print("la interseccion de y es:",b)
 print("la interseccion de x es :",interseccionX)
 ````
+
+# Convertir números romanos con Python
+Requisitos previos : Fundamentos de Python
+Versión : Python 3.10
+Tiempo de lectura : 30 minutos
+
+# Introducción
+Los números romanos se originaron, como su nombre indica, en la antigua Roma hace más de 2.800 años. Después de la eventual desaparición de los romanos, los números todavía se usaban ampliamente durante la Edad Media. Incluso hoy en día, los números romanos prevalecen en nuestra vida cotidiana y aparecen en relojes, títulos de películas y mucho más.
+
+En lugar de números como 1 y 2, los números romanos utilizan letras (predominantemente "I" y "V").
+
+Tabla de números romanos
+Usando el cuadro anterior, "I" es 1, "V" es 5, "X" es 10, y así sucesivamente...
+
+Sin embargo, cuando se junta una gran combinación de estos valores, el valor del número se vuelve difícil de leer.
+
+¡Afortunadamente, una secuencia de números romanos se puede convertir fácilmente en números con Python!
+
+En este tutorial, usaremos bucles, declaraciones de flujo de control y funciones integradas de Python para convertir cualquier número romano en un número. ¡Saltemos!
+
+# Configuración
+Necesitará un editor para este tutorial. Esto se puede lograr con cualquiera de los siguientes:
+
+Puede escribir el código en nuestro editor Python integrado .
+Puede guardar y ejecutar el código desde un archivo roman_numeral.py separado en un editor de su elección (recomendamos VS Code ).
+Después de configurarlo, ¡siéntete libre de seguir adelante!
+
+# Paso 1: Obtener la opinión del usuario
+Para ingresar realmente una secuencia de números romanos, debemos pedirle al usuario que ingrese su información. Esto se puede hacer con la input()función incorporada :
+
+numeral_input = input("Enter the roman numerals you want to convert: ")
+
+Aquí, está creando una variable llamada numeral_inputy asignándole la entrada del usuario.
+
+# Paso 2: Definirroman_to_int()la función
+Ahora que el usuario envía datos, definamos una roman_to_int()función para traducir los números romanos a un valor entero:
+
+def roman_to_int(numeral):
+
+En la definición de la función, especificamos un numeralparámetro que es una cadena del número romano que queremos convertir.
+
+Dentro de la función, recorramos cada carácter de la numeralcadena y convirtámoslos en números enteros.
+
+Al principio, necesitamos crear una final_answervariable entera, inicializada en 0, para almacenar nuestro entero convertido:
+
+final_answer = 0
+
+Se final_answerimprimirá al final de la función.
+
+A continuación, creemos un forbucle que repita un bloque de código particular para todos los caracteres de la numeralvariable (nuestra entrada del usuario):
+
+for i in numeral:
+
+Ahora, dentro del ciclo, usemos declaraciones if- elifpara verificar si nuestra ivariable satisface ciertas restricciones. Si es así, agregaremos su valor entero correspondiente a nuestra final_answervariable:
+```py
+for i in numeral:
+  if i == "M":
+    final_answer += 1000
+  elif i == "D":
+    final_answer += 500
+  elif i == "C":
+    final_answer += 100
+  elif i == "L":
+    final_answer += 50
+  elif i == "X":
+    final_answer += 10
+  elif i == "V":
+    final_answer += 5
+  elif i == "I":
+    final_answer += 1
+```
+A continuación, cuando imprimamos final_answeral final, debemos convertirlo como una cadena con la función incorporada str()para que pueda imprimirse con el resto del mensaje:
+```py
+print("The roman numerals you entered translates to: " + str(final_answer) + "!")
+```
+Asegúrese de que la print()declaración esté en la misma sangría que las declaraciones if- elif. De lo contrario, Python pensará que estás intentando poner el print()comando en una declaración if- elifantes de que se calcule todo.
+
+Por último, fuera de la roman_to_int()función, usemos la entrada que le solicitamos al usuario para que se imprima nuestro entero convertido:
+```py
+roman_to_int(numeral_input)
+```
+¡Guardemos el archivo y ejecutemos el código! Cuando se le solicite, escriba "XX" para probar la roman_to_int()función. Su salida debería decir:
+
+“The Roman numerals you entered translate to: 20!”
+
+A continuación, pruebe con "MDC". Debería recibir un resultado relacionado con el valor "1600". Si eso es lo que tienes, ¡genial! ¡Ya casi terminas!
+
+# Paso 3: Manejar los casos extremos
+No todos los números romanos están representados por una letra. Por ejemplo, el número 4 es "IV" (dos letras, "I" y "V"). Lo mismo ocurre con el 9, que se traduce como "IX".
+
+Necesitamos crear un código que maneje estos casos extremos. En este momento, no obtenemos "IV" cuando se pasa 4 a nuestra romanToInt()función. En cambio, tendremos una salida de 6.
+
+Colocaremos este código antes del forbucle que hicimos en el último paso.
+
+Esto se puede hacer de la siguiente manera:
+```py
+if "CM" in numeral:
+  final_answer += 900
+  numeral = numeral.replace("CM", "")
+if "CD" in numeral:
+  final_answer += 400
+  numeral = numeral.replace("CD", "")
+if "XC" in numeral:
+  final_answer += 90
+  numeral = numeral.replace("XC", "")
+if "XL" in numeral:
+  final_answer += 40
+  numeral = numeral.replace("XL", "")
+if "IX" in numeral:
+  final_answer += 9
+  numeral = numeral.replace("IX", "")
+if "IV" in numeral:
+  final_answer += 4
+  numeral = numeral.replace("IV", "")
+```
+Si uno de estos valores está en la numeralcadena, su valor entero correspondiente se agrega a la final_answervariable. Finalmente, estos números romanos "no enteros" con dos letras se eliminan de la numeralvariable ya que ahora se calculan. Esto garantiza que el código se ejecute sin problemas e imprima la respuesta correcta.
+
+Por ejemplo, si ingresara "XLI", el código vería que hay un "XL" en la numeralvariable. Agregaría 40 al final_answer, luego eliminaría el "XL" numeralpara que el resto de la entrada se procese en el forbucle...
+
+Ahora que ha terminado, guarde su archivo y pruebe su programa con lo siguiente para ver si obtiene los números enteros correctos:
+
+"DXXXI" (531)
+"DCCXCII" (792)
+"LXXXIV" (84)
+# Conclusión
+¡Felicidades! ¡Has programado con éxito un conversor de números romanos! Definimos una función que utiliza bucles, declaraciones de flujo de control y funciones integradas para convertir un número romano en su valor entero equivalente. Además, también incluimos código que manejaba un caso extremo en el que un número romano determinado estaba formado por dos letras, en lugar de una.
+
+Bonificación: ¿Listo para un nuevo desafío con esto? ¡Escribe una nueva int_to_roman()función que convierta un número entero en un número romano!
