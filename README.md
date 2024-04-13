@@ -74,7 +74,7 @@ print(xp)    # Output: 80
 # Obtén un consejo  
 ![MindBlownBrookeLynnHytesGIF](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/2f273207-7669-41f6-bed8-276f768d0e8d)
 
-Además, la raíz cuadrada de algo es lo mismo que una potencia elevada a 0,5. Entonces puedes calcular la raíz cuadrada de algo usando el operador exponente **:
+### Además, la raíz cuadrada de algo es lo mismo que una potencia elevada a 0,5. Entonces puedes calcular la raíz cuadrada de algo usando el operador exponente **:
 ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/4fd5ba58-55e1-410e-b0da-2f9d832a2343)
 
 
