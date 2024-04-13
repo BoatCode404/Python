@@ -1,8 +1,8 @@
-<div
+<div align="center">
  
 ![JjVlFLY](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/35d01f2d-270b-4015-8887-d87cc5303f79)
 
-
+</div>
 
 # AprendiendoPython
  ## Este Espacio lo usaremos para agregar funciones , codigos , trabajos , algoritmos que vayamos aprendiendo tanto en clase como en casa
