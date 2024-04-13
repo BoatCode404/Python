@@ -49,3 +49,22 @@ def distanciaDosPuntos(a1, b1, a2, b2):
     d = ((a2 - a1) ** 2 + (b2 - b1) ** 2) ** 0.5
     return d
 ````
+# Saber edad segun año actual 😶‍🌫️
+
+```py
+def edad_persona(f):
+    año_actual=2024
+    e=año_actual-f
+    return e
+````
+
+# Mayor y diferencia de cualquier dato 🔣
+
+```p
+def mayorYDiferencia(e1,e2):
+    mayor= max(e1,e2)
+    menor= min(e1,e2)
+    d= mayor-menor
+    print("la diferencia es de ",d," Años "," Y el mayor es ", mayor)
+    return d,mayor
+````
