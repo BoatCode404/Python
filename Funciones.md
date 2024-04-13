@@ -61,10 +61,12 @@ def edad_persona(f):
 # Mayor y diferencia de cualquier dato 🔣
 
 ```p
+
 def mayorYDiferencia(e1,e2):
     mayor= max(e1,e2)
     menor= min(e1,e2)
     d= mayor-menor
     print("la diferencia es de ",d," Años "," Y el mayor es ", mayor)
     return d,mayor
+
 ````
