@@ -63,7 +63,6 @@ XC=90
 XL=40
 IX=9
 IV=4
-</div>
 ```
  ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/ab21efab-d438-4d42-9bfd-a0dbea90a58b),
 </div>
