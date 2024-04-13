@@ -123,7 +123,7 @@ def roman_to_int(numeral):
             entero_convertido +=1
     print("Los números romanos que ha introducido se traducen por: " + str(entero_convertido) + " !")
 roman_to_int(numeral_input)
-````
+
 Árabes	Romano
 1	I
 2	II
@@ -178,6 +178,7 @@ roman_to_int(numeral_input)
 2001	MMI
 2002	MMII
 2100	MMC
+````
 ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/85b87403-d5ad-49ba-9526-fa47e9836c6c)
 
 
