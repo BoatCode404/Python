@@ -57,6 +57,8 @@ print("la interseccion de x es :",interseccionX)
  ### Tiempo de lectura : 30 minutos
 </div>
 
+![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/ab21efab-d438-4d42-9bfd-a0dbea90a58b)
+
 # Introducción
 Los números romanos se originaron, como su nombre indica, en la antigua Roma hace más de 2.800 años. Después de la eventual desaparición de los romanos, los números todavía se usaban ampliamente durante la Edad Media. Incluso hoy en día, los números romanos prevalecen en nuestra vida cotidiana y aparecen en relojes, títulos de películas y mucho más.
 
