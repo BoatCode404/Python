@@ -182,4 +182,16 @@ roman_to_int(numeral_input)
 ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/85b87403-d5ad-49ba-9526-fa47e9836c6c)
 
 
+# Asi se hacen las funciones , como se retornnan y como se usan 👌
+```p
+# Convertir grados Fahrenheit a Celsius
+def fahrenheit_to_celsius(fahrenheit):
+    celsius = (fahrenheit - 32) * 5/9
+    return celsius
 
+# Sumar 13 grados Celsius a 13 grados Fahrenheit y convertir a Celsius
+grados_fahrenheit = 13 + 13
+grados_celsius = fahrenheit_to_celsius(grados_fahrenheit)
+
+print(f"La suma de 13 grados Fahrenheit y 13 grados Fahrenheit es equivalente a {grados_celsius:.2f} grados Celsius.")
+````
