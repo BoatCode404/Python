@@ -1,3 +1,6 @@
+![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/ea7a960b-0b29-42f9-8a8f-a572c7b14d47)
+
+
 # AprendiendoPython
  ## Este Espacio lo usaremos para agregar funciones , codigos , trabajos , algoritmos que vayamos aprendiendo tanto en clase como en casa
 ![BoatCode404](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/a52d78eb-8861-4774-92a6-ca231b6feedc)
