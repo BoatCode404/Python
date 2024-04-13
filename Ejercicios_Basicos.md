@@ -55,8 +55,7 @@ print("la interseccion de x es :",interseccionX)
  ### Requisitos previos : Fundamentos de Python
  ### Versión : Python 3.10
  ### Tiempo de lectura : 30 minutos
- ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/ab21efab-d438-4d42-9bfd-a0dbea90a58b),
-```py
+ ```py
 #Con estos numeros y los de la imagen podemos sumar todos los numeros romanos 
 CM=900
 CD=400
@@ -66,6 +65,7 @@ IX=9
 IV=4
 </div>
 ```
+ ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/ab21efab-d438-4d42-9bfd-a0dbea90a58b),
 </div>
 
 # Introducción
