@@ -52,9 +52,9 @@ print("la interseccion de x es :",interseccionX)
 <div align="center">
   
 # Convertir números romanos con Python
-- Requisitos previos : Fundamentos de Python
-- Versión : Python 3.10
-- Tiempo de lectura : 30 minutos
+ ### Requisitos previos : Fundamentos de Python
+ ### Versión : Python 3.10
+ ### Tiempo de lectura : 30 minutos
 </div>
 
 # Introducción
