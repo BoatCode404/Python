@@ -29,3 +29,9 @@ def conversion_monedas_a_USD(m1,m2,m3):
     c=m1*USD_colombia+m2*USD_brazil+m3*USD_peru
     return c
 ````
+# Contrar Movimiento Rectiliano Uniforme (Distancia)📏
+```py
+def encontrarMru(v,t):
+    d=v*t
+    return d
+````
