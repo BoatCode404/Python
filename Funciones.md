@@ -35,3 +35,9 @@ def encontrarMru(v,t):
     d=v*t
     return d
 ````
+# Distancia entre dos puntos 🧷
+```py
+def distanciaDosPuntos(a1, b1, a2, b2):
+    d = ((a2 - a1) ** 2 + (b2 - b1) ** 2) ** 0.5
+    return d
+````
