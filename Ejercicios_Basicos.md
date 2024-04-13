@@ -1,4 +1,3 @@
-![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/802f948c-e5dc-400e-a606-34164034de24)
 
 
 # Ejercicios Basicos en Python
@@ -52,6 +51,8 @@ print("pendiente es :",m)
 print("la interseccion de y es:",b)
 print("la interseccion de x es :",interseccionX)
 ````
+
+![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/802f948c-e5dc-400e-a606-34164034de24)
 <div align="center">
   
 # Convertir números romanos con Python                                                                                              
