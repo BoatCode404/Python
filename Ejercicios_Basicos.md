@@ -182,7 +182,7 @@ roman_to_int(numeral_input)
 ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/85b87403-d5ad-49ba-9526-fa47e9836c6c)
 
 
-# Asi se hacen las funciones , como se retornnan y como se usan 👌
+# Asi se hacen las funciones , como se retornan y como se usan 👌
 ```p
 # Convertir grados Fahrenheit a Celsius
 def fahrenheit_to_celsius(fahrenheit):
