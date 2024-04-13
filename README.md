@@ -1,4 +1,7 @@
-![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/ea7a960b-0b29-42f9-8a8f-a572c7b14d47)
+<div
+ 
+![JjVlFLY](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/35d01f2d-270b-4015-8887-d87cc5303f79)
+
 
 
 # AprendiendoPython
