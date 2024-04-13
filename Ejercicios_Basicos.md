@@ -195,3 +195,14 @@ grados_celsius = fahrenheit_to_celsius(grados_fahrenheit)
 
 print(f"La suma de 13 grados Fahrenheit y 13 grados Fahrenheit es equivalente a {grados_celsius:.2f} grados Celsius.")
 ````
+
+## Explicacion de esta linea 
+```py
+print(f"La suma de 13 grados Fahrenheit y 13 grados Fahrenheit es equivalente a {grados_celsius:.2f} grados Celsius.")
+````
+print(: Esto indica que estamos a punto de imprimir algo en la consola.
+f": Aquí comienza la f-string. Las f-strings se identifican por la letra 'f' antes de las comillas. Esto le indica a Python que esta cadena contendrá expresiones que deben ser evaluadas y formateadas.
+"La suma de 13 grados Fahrenheit y 13 grados Fahrenheit es equivalente a : Esta es la parte de texto estática de la cadena, que se imprimirá tal cual.
+{grados_celsius:.2f}: Esta es la parte de la f-string que contiene una expresión a ser evaluada. {} indica que dentro de estas llaves se debe evaluar una expresión. grados_celsius es la variable que contiene la temperatura en grados Celsius. :.2f es una especificación de formato que indica que queremos que el número sea representado con dos decimales después del punto decimal. El .2f significa "2 decimales en formato de punto flotante".
+grados Celsius.": Esta es la parte final del texto estático de la cadena, que se imprimirá tal cual.
+): Cierra la función print.
