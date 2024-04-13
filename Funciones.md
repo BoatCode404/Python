@@ -70,3 +70,14 @@ def mayorYDiferencia(e1,e2):
     return d,mayor
 
 ````
+
+# Conocer Tipo de triangulo 📐
+```py
+def tipo_tringulo(l1,l2,l3):
+    if l1==l2==l3:
+        return " El tringulo es equilatero "
+    elif l1==l2 or l1==l3 or l3==l2:
+        return " El tringulo es isoceles "
+    else:
+        return " El tringulo es escaleno "
+````
