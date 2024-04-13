@@ -35,7 +35,7 @@ def encontrarMru(v,t):
     d=v*t
     return d
 ````
-# funcion de area y semiperimetro de un triangulo con 3 lados ↕️↔️
+# area y semiperimetro de un triangulo con 3 lados ↕️↔️
 ```py
 def area_y_perimetro(l1,l2,l3):
     s=(l1+l2+l3)/2
