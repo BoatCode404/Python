@@ -137,14 +137,14 @@ La Magic 8 Ball es un popular juguete de oficina y un juguete para niños invent
 
 Es una bola 8 de gran tamaño con algunas de las siguientes respuestas:
 
-Yes - definitely.
-It is decidedly so.
-Without a doubt.
-Reply hazy, try again.
-Ask again later.
-Better not tell you now.
-My sources say no.
-Outlook not so good.
-Very doubtful.
+- Yes - definitely.
+- It is decidedly so.
+- Without a doubt.
+- Reply hazy, try again.
+- Ask again later.
+- Better not tell you now.
+- My sources say no.
+- Outlook not so good.
+- Very doubtful.
 
 Cree un programa magic8.py que pueda responder a cualquier pregunta de Sí o No con una respuesta diferente cada vez que se ejecute.
