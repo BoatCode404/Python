@@ -100,7 +100,6 @@ Una "clase" en Python es como un plano para crear un objeto. Puedes considerarlo
 Por otro lado, un "objeto" es una instancia de una clase. Es como un coche particular que ha sido creado usando el plano del coche. Puedes tener muchos objetos de la misma clase, al igual que puedes tener muchos coches de la misma marca y modelo.
 
 Aquí hay un pequeño ejemplo del código de Python para ilustrarlo
-![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/b58de2c3-7e33-4ddc-9480-c09694f08fcd)
 
 
 ```py
@@ -139,6 +138,11 @@ mi_coche = Coche("Toyota", "Corolla", "Rojo")
 En esta línea, mi_cochees ahora un objeto de la clase Coche. Tiene un color, una marca y un modelo específico. Y también puedo hacer que "arranque" o "acelere".
 
 Los objetos son la forma que usan los programadores para representar elementos del mundo real dentro del código, lo que nos permite interactuar con ellos de manera programática.
+
+
+
+![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/b8b53266-6b67-452c-97d4-1f3c46c73389)
+
 
 # Asi se agregan nuevos valores a una clave en el diccionario de datos de nuestro codigo 
 ```py
