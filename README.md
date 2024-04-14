@@ -144,3 +144,7 @@ nuevo_nombre = "Neville Longbottom"
 casas["Gryffindor"]["jugadores"][0] = nuevo_nombre
 ````
 
+# Bucle While
+El primer tipo de bucle que vamos a aprender es el whilebucle. Puedes pensar en el whilecircuito como una rotonda.
+
+¡Cada vuelta es una iteración! Un automóvil repetirá una y otra vez hasta que ya no pueda hacerlo.
