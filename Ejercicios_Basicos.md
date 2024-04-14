@@ -205,3 +205,17 @@ print(f"La suma de 13 grados Fahrenheit y 13 grados Fahrenheit es equivalente a 
 ### La suma de 13 grados Fahrenheit y 13 grados Fahrenheit es equivalente a : Esta es la parte de texto estática de la cadena, que se imprimirá tal cual.
 ### {grados_celsius:.2f}: Esta es la parte de la f-string que contiene una expresión a ser evaluada. {} indica que dentro de estas llaves se debe evaluar una expresión. grados_celsius es ### la variable que contiene la temperatura en grados Celsius. :.2f es una especificación de formato que indica que queremos que el número sea representado con dos decimales después del punto decimal. El .2f significa "2 decimales en formato de punto flotante".
 ### grados Celsius.": Esta es la parte final del texto estático de la cadena, que se imprimirá tal cual.): Cierra la función print.
+
+
+
+¡Dios mío, debido a que el promedio de la clase fue muy bajo en el examen, el maestro simplemente agregó una curva para las calificaciones del examen! 😭
+
+Cree un programa grades.py que verifique si una calificación está por encima o por debajo de 55.
+
+Comience creando una variable llamada gradey asígnele un valor entre 0 y 100.
+
+Escriba una declaración if/ elsepara lo siguiente:
+
+Si la calificación es mayor o igual a 55, imprima "Aprobaste".
+De lo contrario, imprima "Falló".
+Después de ejecutar el código, cambie gradeel valor y vuelva a ejecutarlo. Haga esto varias veces para asegurarse de que funcione según lo previsto
