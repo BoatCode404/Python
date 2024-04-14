@@ -83,5 +83,13 @@ print(xp)    # Output: 80
 ### Además, la raíz cuadrada de algo es lo mismo que una potencia elevada a 0,5. Entonces puedes calcular la raíz cuadrada de algo usando el operador exponente **:
 ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/a55a6125-b2b5-4b4b-acf2-53a852dc7658)
 
-
+# lanzamiento de moneda
+```p
+import random
+num=random.randint(0,1)
+if num>0.5:
+    print('cara')
+else:
+    print('sello')
+````
 
