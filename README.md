@@ -159,3 +159,10 @@ while pin != 1234:
 if pin == 1234:
   print('PIN accepted!')
 ````
+# rango() bucle for con funcion de rango 
+Para recorrer un conjunto de código un número específico de veces, podemos usar un forbucle y la range()función.
+```py
+for i in range(6):
+  print(i)
+````
+La range()función devuelve una secuencia de números. De forma predeterminada, la secuencia comienza en 0 y aumenta en 1, terminando en un número específico.
