@@ -129,3 +129,22 @@ Cuidado, sólo los valientes deben aventurarse:
 ¡Cuéntanos qué creas etiquetando a @codex_io en Twitter!
 
 ¡Feliz codificación!
+
+
+
+# Magia 8 Bal
+La Magic 8 Ball es un popular juguete de oficina y un juguete para niños inventado en la década de 1940 para adivinar y buscar consejos. 🎱
+
+Es una bola 8 de gran tamaño con algunas de las siguientes respuestas:
+
+Yes - definitely.
+It is decidedly so.
+Without a doubt.
+Reply hazy, try again.
+Ask again later.
+Better not tell you now.
+My sources say no.
+Outlook not so good.
+Very doubtful.
+
+Cree un programa magic8.py que pueda responder a cualquier pregunta de Sí o No con una respuesta diferente cada vez que se ejecute.
