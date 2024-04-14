@@ -100,6 +100,8 @@ Una "clase" en Python es como un plano para crear un objeto. Puedes considerarlo
 Por otro lado, un "objeto" es una instancia de una clase. Es como un coche particular que ha sido creado usando el plano del coche. Puedes tener muchos objetos de la misma clase, al igual que puedes tener muchos coches de la misma marca y modelo.
 
 Aquí hay un pequeño ejemplo del código de Python para ilustrarlo
+![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/b58de2c3-7e33-4ddc-9480-c09694f08fcd)
+
 
 ```py
 class Coche:  # Esto es una clase
