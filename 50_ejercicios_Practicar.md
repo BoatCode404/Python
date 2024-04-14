@@ -163,7 +163,7 @@ Pregúntale al usuario cuál es su altura y cuántos créditos tiene, y almacena
 
 Utilice una combinación de operadores lógicos y relacionales para crear las reglas:
 
-Si son lo suficientemente altos y tienen suficientes créditos, imprima "¡Disfruta el viaje!"
-De lo contrario, si tienen suficientes créditos, pero no son lo suficientemente altos, imprima "No eres lo suficientemente alto para montar".
-De lo contrario, si son lo suficientemente altos, pero no tienen suficientes créditos, imprima "No tienes suficientes créditos".
-De lo contrario, imprima un mensaje indicando que no ha cumplido ninguno de los requisitos.
+- Si son lo suficientemente altos y tienen suficientes créditos, imprima "¡Disfruta el viaje!"
+- De lo contrario, si tienen suficientes créditos, pero no son lo suficientemente altos, imprima "No eres lo suficientemente alto para montar".
+- De lo contrario, si son lo suficientemente altos, pero no tienen suficientes créditos, imprima "No tienes suficientes créditos".
+- De lo contrario, imprima un mensaje indicando que no ha cumplido ninguno de los requisitos.
