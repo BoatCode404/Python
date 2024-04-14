@@ -81,3 +81,14 @@ def tipo_tringulo(l1,l2,l3):
     else:
         return " El tringulo es escaleno "
 ````
+
+# Tipo de PH 🌡️
+```py
+def tipo_ph(v):
+    if v>7:
+        return " Basico"
+    elif v<7:
+        return " Acido "
+    else:
+        return " Neutral"
+````
