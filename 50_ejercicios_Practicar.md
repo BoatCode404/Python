@@ -167,3 +167,48 @@ Utilice una combinación de operadores lógicos y relacionales para crear las re
 - De lo contrario, si tienen suficientes créditos, pero no son lo suficientemente altos, imprima "No eres lo suficientemente alto para montar".
 - De lo contrario, si son lo suficientemente altos, pero no tienen suficientes créditos, imprima "No tienes suficientes créditos".
 - De lo contrario, imprima un mensaje indicando que no ha cumplido ninguno de los requisitos.
+
+
+
+# El Sombrero Seleccionador 
+es un sombrero mágico parlante del Colegio Hogwarts de Magia y Hechicería. El sombrero decide a cuál de las cuatro "Casas" va cada estudiante de primer año:
+
+- 🦁Gryffindor
+- 🦅 Ravenclaw
+- 🦡Hufflepuff
+- 🐍Slytherin
+
+Escriba un programa sorting_hat.py que le haga al usuario algunas preguntas usando int()y las coloque en una de las Casas según sus respuestas:
+
+ #### Q1) Do you like Dawn or Dusk?
+    - 1) Dawn
+    - 2) Dusk
+    
+- Si la respuesta es igual a 1, Gryffindor y Ravenclaw obtienen un +1.
+- De lo contrario, si la respuesta es igual a 2, Hufflepuff y Slytherin obtienen un +1.
+- De lo contrario, generará el mensaje "Entrada incorrecta".
+
+#### Q2) When I’m dead, I want people to remember me as:
+    1) The Good
+    2) The Great
+    3) The Wise
+    4) The Bold
+
+- Si la respuesta es 1, Hufflepuff +2.
+- De lo contrario, si la respuesta es 2, Slytherin +2.
+- De lo contrario, si la respuesta es 3, Ravenclaw +2.
+- De lo contrario, si la respuesta es 4, Gryffindor +2.
+- De lo contrario, generará el mensaje "Entrada incorrecta".
+
+#### Q3) Which kind of instrument most pleases your ear?
+    1) The violin
+    2) The trumpet
+    3) The piano
+    4) The drum
+
+- Si la respuesta es 1, Slytherin +4.
+- De lo contrario, si la respuesta es 2, Hufflepuff +4.
+- De lo contrario, si la respuesta es 3, Ravenclaw +4.
+- De lo contrario, si la respuesta es 4, Gryffindor +4.
+- De lo contrario, envíe "Entrada incorrecta".
+- ¡Por último, imprime la casa con más puntos!
