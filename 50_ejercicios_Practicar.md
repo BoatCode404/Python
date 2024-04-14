@@ -148,3 +148,22 @@ Es una bola 8 de gran tamaño con algunas de las siguientes respuestas:
 - Very doubtful.
 
 Cree un programa magic8.py que pueda responder a cualquier pregunta de Sí o No con una respuesta diferente cada vez que se ejecute.
+
+
+
+# montaña rusa
+
+Desde 1927, la montaña rusa "The Cyclone" ha deleitado a los pasajeros que visitan Coney Island en Brooklyn, Nueva York. 🎢
+
+Ahora están instalando un nuevo sistema de entrada (el requisito de altura es de 137 cm y el costo es de 10 créditos) y necesitan tu ayuda para redactar el programa.
+
+Cree un nuevo archivo llamado the_cyclone.py .
+
+Pregúntale al usuario cuál es su altura y cuántos créditos tiene, y almacena los valores en una heightvariable y una creditsvariable.
+
+Utilice una combinación de operadores lógicos y relacionales para crear las reglas:
+
+Si son lo suficientemente altos y tienen suficientes créditos, imprima "¡Disfruta el viaje!"
+De lo contrario, si tienen suficientes créditos, pero no son lo suficientemente altos, imprima "No eres lo suficientemente alto para montar".
+De lo contrario, si son lo suficientemente altos, pero no tienen suficientes créditos, imprima "No tienes suficientes créditos".
+De lo contrario, imprima un mensaje indicando que no ha cumplido ninguno de los requisitos.
