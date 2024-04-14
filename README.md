@@ -137,3 +137,10 @@ mi_coche = Coche("Toyota", "Corolla", "Rojo")
 En esta línea, mi_cochees ahora un objeto de la clase Coche. Tiene un color, una marca y un modelo específico. Y también puedo hacer que "arranque" o "acelere".
 
 Los objetos son la forma que usan los programadores para representar elementos del mundo real dentro del código, lo que nos permite interactuar con ellos de manera programática.
+
+# Asi se agregan nuevos valores a una clave en el diccionario de datos de nuestro codigo 
+```py
+nuevo_nombre = "Neville Longbottom"
+casas["Gryffindor"]["jugadores"][0] = nuevo_nombre
+````
+
