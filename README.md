@@ -92,4 +92,46 @@ if num>0.5:
 else:
     print('sello')
 ````
+# Objetos y clases terminos
+Las clases y los objetos son dos de los conceptos fundamentales de la programación orientada a objetos.
 
+Una "clase" en Python es como un plano para crear un objeto. Puedes considerarlo como una especie de plantilla para crear algo. Por ejemplo, podrías tener una clase "Coche", que tiene diferentes propiedades como la marca, el modelo, el color, etc., y tiene ciertos comportamientos como arrancar, acelerar, frenar, etc.
+
+Por otro lado, un "objeto" es una instancia de una clase. Es como un coche particular que ha sido creado usando el plano del coche. Puedes tener muchos objetos de la misma clase, al igual que puedes tener muchos coches de la misma marca y modelo.
+
+Aquí hay un pequeño ejemplo del código de Python para ilustrarlo:
+
+class Coche:  # Esto es una clase
+    def __init__(self, marca, modelo, color):
+        self.marca = marca
+        self.modelo = modelo
+        self.color = color
+
+    def arrancar(self):
+        print("El coche ha arrancado")
+
+# Ahora, vamos a crear un objeto de la clase Coche:
+```py
+mi_coche = Coche("Toyota", "Corolla", "Rojo")
+# Y ahora, podemos hacer cosas con el objeto:
+print(mi_coche.marca)  # Imprime "Toyota"
+mi_coche.arrancar()  
+# Imprime "El coche ha arrancado"
+````
+Espero que esto te ayude a entender el concepto. Si tienes más preguntas, ¡no dudes en preguntar! Ten en cuenta que aprender a programar es como aprender un nuevo idioma. Al principio puede parecer desalentador, pero con el tiempo y la práctica, se vuelve más fácil. ¡Sigue adelante!
+
+no me queda claro que es un objeto
+
+¡No hay problema, a veces los conceptos toman un tiempo para similar! Imagina que un objeto en la programación es como un objeto en el mundo real.
+
+Por ejemplo, si considera un coche. Un coche es un objeto. Tiene propiedades específicas como color, modelo, marca y comportamientos como arrancar, acelerar y frenar. En programación, creamos una representación digital de ese coche, es decir, un "objeto" en el código que tiene las mismas propiedades (color, marca y modelo en este caso) y comportamientos (arrancar, acelerar, frenar).
+
+Entonces, en términos de programación, crearíamos una "clase" Coche que defina todas las propiedades y comportamientos que un coche puede tener, y luego creamos "objetos" específicos de esa clase Coche.
+
+Por ejemplo:
+```py
+mi_coche = Coche("Toyota", "Corolla", "Rojo")
+````
+En esta línea, mi_cochees ahora un objeto de la clase Coche. Tiene un color, una marca y un modelo específico. Y también puedo hacer que "arranque" o "acelere".
+
+Los objetos son la forma que usan los programadores para representar elementos del mundo real dentro del código, lo que nos permite interactuar con ellos de manera programática.
