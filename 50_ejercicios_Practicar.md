@@ -214,7 +214,7 @@ Escriba un programa sorting_hat.py que le haga al usuario algunas preguntas usan
 - ¡Por último, imprime la casa con más puntos!
 
 
-# Hacer un Programa que genere contraseñas seguras segun los criterios del usuario 
+#### Hacer un Programa que genere contraseñas seguras segun los criterios del usuario 
 ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/3dfef4ad-cb7b-4aba-8696-e7d1db057dcb)
 
 
