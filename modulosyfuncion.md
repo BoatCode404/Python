@@ -9,7 +9,7 @@ casa_ganadora=max(acomulador,key=acomulador.get)
 ````
 - acomulador es la variable de nuestro diccionario en este caso
 
-# random.choice 
+# random.choice() 
 es una función en el módulo random de Python que se utiliza para elegir aleatoriamente un elemento de una secuencia, como una lista, una tupla o una cadena de texto.
 ```py
 import random
