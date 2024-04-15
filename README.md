@@ -207,6 +207,20 @@ En resumen, la principal diferencia entre listas y diccionarios radica en cómo 
 
 
 
+# Tuplas (()):
+
+Una tupla es una colección inmutable y ordenada de elementos.
+Se crean utilizando paréntesis () y los elementos se separan por comas.
+A diferencia de las listas, las tuplas no se pueden modificar después de su creación, lo que significa que no se pueden agregar, eliminar o cambiar elementos.
+Las tuplas son útiles para representar datos que no deben cambiar, como coordenadas, fechas, etc.
+Ejemplo:
+
+```py
+python
+Copy code
+mi_tupla = (1, 2, 'hola', True)
+````
+
 
 
 
