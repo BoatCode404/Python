@@ -185,8 +185,6 @@ Las listas se crean utilizando corchetes [] y los elementos se separan por comas
 Se pueden modificar (agregar, eliminar, cambiar) los elementos de una lista después de que se ha creado.
 Ejemplo:
 ```py
-python
-Copy code
 mi_lista = [1, 2, 'hola', True]
 ````
 #### Diccionarios ({}):
@@ -216,8 +214,6 @@ Las tuplas son útiles para representar datos que no deben cambiar, como coorden
 Ejemplo:
 
 ```py
-python
-Copy code
 mi_tupla = (1, 2, 'hola', True)
 ````
 
