@@ -235,16 +235,5 @@ Ejemplo:
 ```py
 mi_cadena = 'Hola, mundo!'
 ````
-# random.choice es una función en el módulo random de Python que se utiliza para elegir aleatoriamente un elemento de una secuencia, como una lista, una tupla o una cadena de texto.
-```py
-import random
 
-# Lista de colores
-colores = ["rojo", "azul", "verde", "amarillo"]
-
-# Elegir un color aleatorio
-color_aleatorio = random.choice(colores)
-
-print("El color aleatorio seleccionado es:", color_aleatorio)
-````
 
