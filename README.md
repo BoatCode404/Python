@@ -216,7 +216,24 @@ Ejemplo:
 ```py
 mi_tupla = (1, 2, 'hola', True)
 ````
+# Conjuntos ({} o set()):
 
+Un conjunto es una colección no ordenada y mutable de elementos únicos.
+Se crean utilizando llaves {} o la función set() y los elementos se separan por comas.
+Los conjuntos eliminan automáticamente los elementos duplicados y no admiten elementos duplicados.
+Los conjuntos son útiles para realizar operaciones como unión, intersección y diferencia entre conjuntos.
+Ejemplo:
+```py
+mi_conjunto = {1, 2, 3, 4, 5}
+````
+# Cadenas de texto (str):
 
+Una cadena de texto es una secuencia inmutable de caracteres.
+Se crean utilizando comillas simples '' o dobles "".
+Las cadenas de texto son muy utilizadas para representar texto y se pueden manipular de varias formas, como concatenación, indexación, división, etc.
+Ejemplo:
+```py
+mi_cadena = 'Hola, mundo!'
+````
 
 
