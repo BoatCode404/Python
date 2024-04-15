@@ -172,3 +172,41 @@ for i in range(6):
   print(i)
 ````
 La range()función devuelve una secuencia de números. De forma predeterminada, la secuencia comienza en 0 y aumenta en 1, terminando en un número específico.
+
+
+# En Python, las listas ([]) y los diccionarios ({}) son dos tipos de estructuras de datos diferentes con propósitos y características distintas:
+
+Listas ([]):
+
+Una lista es una colección ordenada y mutable de elementos.
+Los elementos de una lista se almacenan en orden y se accede a ellos mediante índices enteros.
+Pueden contener elementos de diferentes tipos, como números, cadenas de texto, booleanos, otras listas e incluso objetos más complejos.
+Las listas se crean utilizando corchetes [] y los elementos se separan por comas.
+Se pueden modificar (agregar, eliminar, cambiar) los elementos de una lista después de que se ha creado.
+Ejemplo:
+```py
+python
+Copy code
+mi_lista = [1, 2, 'hola', True]
+````
+#### Diccionarios ({}):
+
+Un diccionario es una colección no ordenada y mutable de pares clave-valor.
+
+Los elementos de un diccionario se almacenan como pares de clave-valor, donde cada clave está asociada a un valor específico.
+Se accede a los valores de un diccionario mediante sus claves en lugar de índices enteros.
+Los diccionarios se crean utilizando llaves {} y se especifican los pares clave-valor separados por comas y con los dos puntos : entre la clave y el valor.
+Los diccionarios son útiles cuando necesitas asociar valores con claves específicas para buscarlos rápidamente.
+Ejemplo:
+```py
+python
+Copy code
+mi_diccionario = {'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'}
+````
+En resumen, la principal diferencia entre listas y diccionarios radica en cómo se accede a sus elementos y cómo se almacenan los datos. Las listas son colecciones ordenadas de elementos accesibles mediante índices, mientras que los diccionarios son colecciones no ordenadas de pares clave-valor accesibles mediante las claves.
+
+
+
+
+
+
