@@ -22,3 +22,17 @@ color_aleatorio = random.choice(colores)
 
 print("El color aleatorio seleccionado es:", color_aleatorio)
 ````
+
+# random.shuffle 
+es una función en el módulo random de Python que se utiliza para mezclar los elementos de una secuencia de manera aleatoria. Esta función modifica la secuencia en su lugar, reorganizando sus elementos de forma aleatoria.
+
+````py
+import random
+
+# Lista de números del 1 al 10
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Mezclar los números
+random.shuffle(numeros)
+print("Lista de números mezclados:", numeros)
+````
