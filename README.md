@@ -176,7 +176,7 @@ La range()función devuelve una secuencia de números. De forma predeterminada, 
 
 # En Python, las listas ([]) y los diccionarios ({}) son dos tipos de estructuras de datos diferentes con propósitos y características distintas:
 
-Listas ([]):
+#### Listas ([]):
 
 Una lista es una colección ordenada y mutable de elementos.
 Los elementos de una lista se almacenan en orden y se accede a ellos mediante índices enteros.
