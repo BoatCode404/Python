@@ -29,3 +29,8 @@ casas["Gryffindor"]["jugadores"].append(nuevo_jugador)
 5.	FileNotFoundError:
 •	Descripción: Ocurre cuando se intenta abrir o acceder a un archivo que no existe en el sistema.
 •	Ejemplo: Si intentas abrir un archivo para lectura que no se encuentra en la ubicación especificada, Python generará un FileNotFoundError.
+
+
+
+Len()=se usa para contar caracteres
+lower()=se usa para poner todos los caracteres en minisculas
