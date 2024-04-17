@@ -218,3 +218,18 @@ Escriba un programa sorting_hat.py que le haga al usuario algunas preguntas usan
 ![image](https://github.com/BoatCode404/AprendiendoPython/assets/166348131/3dfef4ad-cb7b-4aba-8696-e7d1db057dcb)
 
 
+# Ejercicio Para Practicar if/else/logicos y bucles
+
+- Suma de múltiplos: Escribe un programa que sume todos los números del 1 al 100 que sean múltiplos de 3 o 5.
+  
+- Contador de vocales: Crea un programa que solicite al usuario ingresar una palabra y cuente el número de vocales (a, e, i, o, u) en esa palabra.
+  
+- Generador de tablas de multiplicar: Haz un programa que solicite al usuario ingresar un número y luego genere la tabla de multiplicar correspondiente a ese número, desde 1 hasta 10.
+  
+- Verificador de palíndromos: Escribe un programa que verifique si una palabra ingresada por el usuario es un palíndromo, es decir, si se lee igual de adelante hacia atrás que de atrás hacia adelante.
+  
+- Conversor de temperaturas: Crea un programa que permita al usuario ingresar una temperatura en grados Celsius y la convierta a grados Fahrenheit, y viceversa.
+  
+- Calculadora de factoriales: Haz un programa que solicite al usuario ingresar un número y luego calcule su factorial.
+  
+- Juego de adivinanzas: Escribe un programa que genere un número aleatorio entre 1 y 100 y le pida al usuario que lo adivine. El programa debe proporcionar pistas al usuario si el número que ingresó es demasiado alto o demasiado bajo.
