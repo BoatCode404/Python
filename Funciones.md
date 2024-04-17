@@ -92,3 +92,17 @@ def tipo_ph(v):
     else:
         return " Neutral"
 ````
+# Encontrar Polindromos
+```py
+def encontrarPalindromos(frase):
+    frase.lower()
+    if len(frase)>=3 and frase==frase[::-1]:
+        palindromo=print(f"La frase {frase} es un palindromo ")
+        return palindromo 
+    else:
+        print("No es un palindromo")
+cantidad=int(input("Cuantas palabras quiere saber si son palindromas :"))
+for i in range(1,cantidad+1):
+    palabra=input("cual es la frase:")
+    encontrarPalindromos(palabra)
+``````````
