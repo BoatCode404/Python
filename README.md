@@ -266,13 +266,7 @@ for i in range(10):
 1.	Se utilizó letra.lower() para convertir la letra a minúscula antes de compararla, de esta manera se consideran tanto las mayúsculas como las minúsculas. Letra es la variable
 
 
-
-
-
 La función range() en Python crea un rango de números enteros, pero no puede manejar directamente cadenas de texto. Por eso, Python te está devolviendo un error TypeError porque estás intentando utilizar un objeto de tipo str donde se esperaba un número entero.
 
-
-Len()=se usa para contar caracteres
-lower()=se usa para poner todos los caracteres en minisculas
 
 
