@@ -32,5 +32,5 @@ casas["Gryffindor"]["jugadores"].append(nuevo_jugador)
 
 
 
-Len()=se usa para contar caracteres
-lower()=se usa para poner todos los caracteres en minisculas
+- Len()=se usa para contar caracteres
+- lower()=se usa para poner todos los caracteres en minisculas
