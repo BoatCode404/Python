@@ -235,5 +235,58 @@ Ejemplo:
 ```py
 mi_cadena = 'Hola, mundo!'
 ````
+Aprendamos una nueva herramienta que es muy similar a la concatenación de cadenas, antes de continuar con las instrucciones.
+La interpolación de cadenas es un proceso de sustitución de valores de variables en marcadores de posición en una cadena.
+Por ejemplo, si tiene una plantilla para saludar a una persona en un correo electrónico como 'Hi {name}, nice to meet you!', le gustaría reemplazar el marcador de posición {name}con un nombre real. Esta es la interpolación de cadenas.
+El programa anterior se puede recrear usando interpolación de cadenas usando el {}signo:
+# String interpolation
+
+for i in range(5):
+  print(f'The square of {i} is {i*i}')
+Observe el fprefijo antes de las comillas.
+Casi correcto. En el caso de la función range(start, stop, step):
+•	El primer parámetro (start) es el valor inicial de la secuencia.
+•	El segundo parámetro (stop) es el valor final de la secuencia. El rango finaliza justo antes de este valor.
+•	El tercer parámetro (step) es el tamaño del paso o incremento entre los valores sucesivos de la secuencia.
+Entonces, para tu pregunta:
+•	El 0 no está presente en este caso. La secuencia comienza desde 99, que es el primer valor en este rango.
+•	Sí, puedes cambiar -1 a otro número, como 2, para incrementar la secuencia en pasos de 2 en 2. Por ejemplo, range(99, 0, 2) generará una secuencia que comienza en 99, termina justo antes de 0 y se decrementa de 2 en 2.
+for i in range(99,0,-1):
+   print(f"{i} botellas de cerveza en la pared, {i} botellas de cerveza.Toma uno abajo, pasa a tu alrededor, {i} botellas de cerveza en la pared...")
+
+
+El whilebucle se repite una y otra vez mientras la condición sea verdadera:
+while coffee < 1:
+  print('tired')
+
+El forbucle y la range()función para iterar un cierto número de veces:
+for i in range(10):
+  print(i)
+
+1.	Se utilizó letra.lower() para convertir la letra a minúscula antes de compararla, de esta manera se consideran tanto las mayúsculas como las minúsculas. Letra es la variable
+
+
+1.	ValueError:
+•	Descripción: Ocurre cuando una función espera recibir un tipo de dato específico pero recibe un valor que no es válido para ese tipo de dato.
+•	Ejemplo: Si intentas convertir una cadena de texto que no representa un número en un entero usando la función int(), se generará un ValueError.
+2.	TypeError:
+•	Descripción: Ocurre cuando una operación o función se aplica a un objeto de un tipo incorrecto.
+•	Ejemplo: Intentar sumar un entero con una cadena de texto generará un TypeError, ya que la operación de suma no está definida para estos tipos de datos.
+3.	ZeroDivisionError:
+•	Descripción: Ocurre cuando se intenta dividir un número por cero.
+•	Ejemplo: Si intentas realizar una división donde el divisor es cero, como 10 / 0, Python generará un ZeroDivisionError.
+4.	IndexError:
+•	Descripción: Ocurre cuando se intenta acceder a un índice que está fuera del rango válido de una secuencia (como una lista o una tupla).
+•	Ejemplo: Si intentas acceder al elemento en la posición 5 de una lista que solo tiene 3 elementos, Python generará un IndexError.
+5.	FileNotFoundError:
+•	Descripción: Ocurre cuando se intenta abrir o acceder a un archivo que no existe en el sistema.
+•	Ejemplo: Si intentas abrir un archivo para lectura que no se encuentra en la ubicación especificada, Python generará un FileNotFoundError.
+
+
+La función range() en Python crea un rango de números enteros, pero no puede manejar directamente cadenas de texto. Por eso, Python te está devolviendo un error TypeError porque estás intentando utilizar un objeto de tipo str donde se esperaba un número entero.
+
+
+Len()=se usa para contar caracteres
+lower()=se usa para poner todos los caracteres en minisculas
 
 
