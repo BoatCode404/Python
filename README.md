@@ -269,4 +269,18 @@ for i in range(10):
 La función range() en Python crea un rango de números enteros, pero no puede manejar directamente cadenas de texto. Por eso, Python te está devolviendo un error TypeError porque estás intentando utilizar un objeto de tipo str donde se esperaba un número entero.
 
 
+Entiendo, intentaré explicarlo de manera más clara.
+
+En Python, la función range() crea una secuencia de números. Tiene tres parámetros:
+
+El primer parámetro es el inicio de la secuencia.
+El segundo parámetro es el final de la secuencia (no inclusivo).
+El tercer parámetro es el paso, es decir, la diferencia entre cada número en la secuencia.
+Ahora, para entender la línea for i in range(len(palabra) - 1, -1, -1): usando el ejemplo de la palabra "Python":
+
+len(palabra) es 6, ya que "Python" tiene 6 letras.
+len(palabra) - 1 es 5, porque queremos el índice del último carácter, pero los índices en Python comienzan desde 0.
+-1 es el final de la secuencia, pero no se incluye. Por lo tanto, la secuencia de números irá desde 5 hasta 0 (es decir, los índices del último al primer carácter).
+-1 es el paso, lo que significa que iremos hacia atrás de uno en uno.
+Entonces, for i in range(len(palabra) - 1, -1, -1): genera una secuencia de números que representa los índices de los caracteres de "Python" en orden inverso, de 5 a 0. Es decir, 5, 4, 3, 2, 1, 0. Esto permite recorrer la palabra de atrás hacia adelante.
 
