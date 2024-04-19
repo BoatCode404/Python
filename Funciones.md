@@ -126,3 +126,8 @@ def decenas_unidades(num):
     else:
         animated_text('Digita un numero de dos cifras')
 ``````
+# Limpiar Pantalla para todos los sistemas operativos
+```py
+def limpiarpantalla():
+    os.system('cls' if os.name == 'nt' else 'clear')
+````
