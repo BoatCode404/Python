@@ -106,3 +106,10 @@ for i in range(1,cantidad+1):
     palabra=input("cual es la frase:")
     encontrarPalindromos(palabra)
 ``````````
+# Funcion para animar texto
+```py
+def animate_text(text):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.1)
+``````
