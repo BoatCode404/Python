@@ -34,3 +34,7 @@ casas["Gryffindor"]["jugadores"].append(nuevo_jugador)
 
 - Len()=se usa para contar caracteres
 - lower()=se usa para poner todos los caracteres en minisculas
+- item()=para buscar en elementos en un diccionarios para imprimirlos
+- votos.values(): Este método devuelve una vista de los valores en el diccionario. En otras palabras, devuelve una lista de todos los valores en el diccionario votos
+- votos.get: Este método de los diccionarios se utiliza para obtener el valor asociado a una clave específica. Por ejemplo, si tienes el diccionario anterior y quieres obtener el número de votos del 'candidato_2', puedes hacerlo así: votos.get('candidato_2'). Este código devolverá 15, que es el número de votos del 'candidato_2'.
+- max(votos, key=votos.get) devolverá la clave asociada al valor máximo en el diccionario votos. En este caso, devuelve la clave del candidato que tiene el máximo número de votos.
