@@ -284,3 +284,6 @@ len(palabra) - 1 es 5, porque queremos el índice del último carácter, pero lo
 -1 es el paso, lo que significa que iremos hacia atrás de uno en uno.
 Entonces, for i in range(len(palabra) - 1, -1, -1): genera una secuencia de números que representa los índices de los caracteres de "Python" en orden inverso, de 5 a 0. Es decir, 5, 4, 3, 2, 1, 0. Esto permite recorrer la palabra de atrás hacia adelante.
 
+
+
+Sí, exactamente. Cuando usas meses[num], estás accediendo al valor asociado a la clave num en el diccionario meses. En este caso, num es la clave que el usuario ingresó y meses[num] te dará el nombre del mes correspondiente a esa clave.
