@@ -233,3 +233,17 @@ Escriba un programa sorting_hat.py que le haga al usuario algunas preguntas usan
 - Calculadora de factoriales: Haz un programa que solicite al usuario ingresar un número y luego calcule su factorial.
   
 - Juego de adivinanzas: Escribe un programa que genere un número aleatorio entre 1 y 100 y le pida al usuario que lo adivine. El programa debe proporcionar pistas al usuario si el número que ingresó es demasiado alto o demasiado bajo.
+
+
+
+Fizz Buzz es un juego de palabras para niños que enseña división. También es una pregunta clásica en las entrevistas técnicas en innumerables empresas. 🐝
+
+Aunque este desafío puede parecer simple para los codificadores experimentados, está diseñado para eliminar al 90% de los candidatos que no pueden aplicar sus conocimientos de codificación a un nuevo problema de manera creativa. ¿Quieres probarlo?
+
+Cree un programa fizz_buzz.py que genere números del 1 al 100.
+
+Aquí está el truco:
+
+Para múltiplos de 3, imprima "Fizz" en lugar del número.
+Para múltiplos de 5, imprima "Buzz" en lugar del número.
+Aquí está la parte complicada: para múltiplos de 3 y 5, imprima "FizzBuzz".
