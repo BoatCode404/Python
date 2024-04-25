@@ -407,3 +407,22 @@ Utilice bucles junto con métodos del módulo para resolver este desafío. `mien
     ¿Cuál es el total (2-12)? 7
     ¡Lo entendiste!
     
+Cree un programa que use un forbucle y range()una función para mostrar el siguiente patrón en la terminal usando un montón de asteriscos \*:
+
+  
+
+\*
+
+\* \*
+
+\* \* \*
+
+\* \* \* \*
+
+\* \* \* \* \*
+
+\# ... and so on
+
+  
+
+Debería verse así pero con 25 filas en total.
