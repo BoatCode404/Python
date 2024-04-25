@@ -277,3 +277,18 @@ Luego use una declaración if// para imprimir uno de estos seis datos aleatorios
 3 -'A taste bud's life span is about 10 days.'
 4 -'It is impossible to sneeze while sleeping.'
 5 -'It is illegal to sing off-key in North Carolina.'
+
+
+
+Ah, las cuatro estaciones del año: invierno, primavera, verano u otoño; ¡todo lo que tienes que hacer es llamar!
+
+Pregunte al usuario el número de mes usando la input()función.
+
+Verifique las cuatro estaciones usando una declaración if// y operadores lógicos:elifelse
+
+monthes 1, 2, 3, imprimir'Winter 🌨️'
+monthes 4, 5, 6, imprimir'Spring 🌱'
+monthes 7, 8, 9, imprimir'Summer 🌻'
+monthes 10, 11, 12, imprimir'Autumn 🍂'
+Todo lo demás es'Invalid'
+Los operadores lógicos en Python incluyen las palabras clave andy or. ¿Cual deberías usar?
