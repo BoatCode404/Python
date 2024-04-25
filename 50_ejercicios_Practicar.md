@@ -303,3 +303,47 @@ Verifique las cuatro estaciones usando una declaración `if:elif:else` y operado
 - Para meses 10, 11, 12, imprimir 'Autumn 🍂'
 - Todo lo demás es 'Invalid'.
 Los operadores lógicos en Python incluyen las palabras clave `and` y `or`. ¿Cuál deberías usar?
+
+# Programa de conversión de peso interplanetario 🚀
+
+¡Estamos en el año 2199 y nos hemos convertido en una especie interplanetaria capaz de viajar a otros planetas del sistema solar! 🌌
+
+---
+
+## Instrucciones:
+
+1. Ingresa tu peso en la Tierra (en kilogramos).
+2. Selecciona el número correspondiente al planeta al que deseas viajar.
+3. Obtén tu peso en el planeta de destino.
+
+---
+
+## Planetas disponibles:
+
+| Número | Planeta  | Gravedad relativa |
+| ------ | -------- | ----------------- |
+|   1    | Mercurio |       0.38        |
+|   2    | Venus    |       0.91        |
+|   3    | Marte    |       0.38        |
+|   4    | Júpiter  |       2.53        |
+|   5    | Saturno  |       1.07        |
+|   6    | Urano    |       0.89        |
+|   7    | Neptuno  |       1.14        |
+
+---
+
+## Fórmula para calcular el peso en el planeta de destino:
+
+**peso_destino** = **peso_tierra** × **gravedad_relativa**
+
+---
+
+### Por favor, introduce tu peso en la Tierra (en kilogramos):
+
+![GIF](https://media.giphy.com/media/l0HlHVGF9GqGpiPPe/giphy.gif)
+
+### Planeta de destino (selecciona el número correspondiente):
+
+![Planets](https://media.giphy.com/media/14qXzUHiSWV6ak/giphy.gif)
+
+### Si el usuario ingresa un número de planeta fuera del 1 al 7, se mostrará un mensaje que diga 'Número de planeta no válido'.
