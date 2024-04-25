@@ -407,27 +407,3 @@ Utilice bucles junto con métodos del módulo para resolver este desafío. `mien
     ¿Cuál es el total (2-12)? 7
     ¡Lo entendiste!
     
-
-Pista
-
-[Atrás](https://www.codex.io/challenges/loops/new-year-countdown)
-
-### Bucles 3/5
-
-[Próximo](https://www.codex.io/challenges/loops/asterisks)
-
-![botón ejecutar](https://www.codex.io/images/editor/play.svg)Correr
-
-![copiar bgutton](https://www.codex.io/images/editor/screenshot.svg)
-
-3
-
-1
-
-2
-
-\# Escribe el código a continuación 💖
-
-Terminal
-
-Códice | 🎲 Tirada de dados
