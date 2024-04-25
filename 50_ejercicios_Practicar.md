@@ -350,13 +350,21 @@ Los operadores lógicos en Python incluyen las palabras clave `and` y `or`. ¿Cu
 
 
 
-# ・コ Cuenta regresiva de a単o nuevo
+\# 🥳 Cuenta regresiva de año nuevo
 
-臓Recibe el A単o Nuevo! Una fiesta de Nochevieja no est叩 completa sin una cuenta atr叩s del 10 al 0.
+  
 
-Utilice un bucle `for` y la funci坦n `range()` para una cuenta regresiva.
+¡Recibe el Año Nuevo! Una fiesta de Nochevieja no está completa sin una cuenta atrás del 10 al 0.
 
-La salida deber鱈a verse as鱈:
+  
+
+Utilice un bucle \`for\` y la función \`range()\` para una cuenta regresiva.
+
+  
+
+La salida debería verse así:
+
+  
 
 10
 
@@ -378,4 +386,4 @@ La salida deber鱈a verse as鱈:
 
 1
 
-Happy New Year! ・コ
+¡Feliz año nuevo! 🥳
