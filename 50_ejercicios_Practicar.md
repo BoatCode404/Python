@@ -261,3 +261,19 @@ gradees 10, imprimir'Sophomore'
 gradees 11, imprimir'Junior'
 gradees 12, imprimir'Senior'
 Todo lo demás es'TBD'
+
+
+
+
+Snapple es una famosa marca de bebidas de té de Queens, Nueva York. Cada tapa de botella viene con un dato divertido y tonto.
+
+Utilice el randommódulo para crear un número del 0 al 5.
+
+Luego use una declaración if// para imprimir uno de estos seis datos aleatorios de Snapple:elifelse
+
+0 -'Flamingos turn pink from eating shrimp.'
+1 -'The only food that doesn't spoil is honey.'
+2 -'Shrimp can only swim backwards.'
+3 -'A taste bud's life span is about 10 days.'
+4 -'It is impossible to sneeze while sleeping.'
+5 -'It is illegal to sing off-key in North Carolina.'
