@@ -387,3 +387,47 @@ La salida debería verse así:
 1
 
 ¡Feliz año nuevo! 🥳
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tirada de dados
+================
+
+Supongamos que tenemos dos dados. 🎲 🎲
+
+Crea un juego en el que uno adivine el valor total después de tirar un par de dados una vez.
+
+Cada dado tiene valores enteros del 1 al 6. Como hay dos dados, el rango de valores posibles está entre 2 y 12 (inclusive).
+
+Utilice el módulo para "tirar" los dados y almacene los valores aleatorios de cada variable del dado en una nueva variable. `aleatorio` `total` 
+
+Hasta que adivine el valor correcto, utilice un bucle para seguir solicitando al usuario un número. `mientras` 
+
+Utilice bucles junto con métodos del módulo para resolver este desafío. `mientras```aleatorio` 
+
+    ¿Cuál es el total (2-12)? 10
+    ¿Cuál es el total (2-12)? 7
+    ¡Lo entendiste!
+    
+
+Pista
+
+[Atrás](https://www.codex.io/challenges/loops/new-year-countdown)
+
+### Bucles 3/5
+
+[Próximo](https://www.codex.io/challenges/loops/asterisks)
+
+![botón ejecutar](https://www.codex.io/images/editor/play.svg)Correr
+
+![copiar bgutton](https://www.codex.io/images/editor/screenshot.svg)
+
+3
+
+1
+
+2
+
+\# Escribe el código a continuación 💖
+
+Terminal
+
+Códice | 🎲 Tirada de dados
