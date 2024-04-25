@@ -219,57 +219,87 @@ Escriba un programa sorting_hat.py que le haga al usuario algunas preguntas usan
 
 
 
-Ejercicio Para Practicar if/else/logicos y bucles
-Suma de múltiplos: Escribe un programa que sume todos los números del 1 al 100 que sean múltiplos de 3 o 5.
-Contador de vocales: Crea un programa que solicite al usuario ingresar una palabra y cuente el número de vocales (a, e, i, o, u) en esa palabra.
-Generador de tablas de multiplicar: Haz un programa que solicite al usuario ingresar un número y luego genere la tabla de multiplicar correspondiente a ese número, desde 1 hasta 10.
-Verificador de palíndromos: Escribe un programa que verifique si una palabra ingresada por el usuario es un palíndromo, es decir, si se lee igual de adelante hacia atrás que de atrás hacia adelante.
-Conversor de temperaturas: Crea un programa que permita al usuario ingresar una temperatura en grados Celsius y la convierta a grados Fahrenheit, y viceversa.
-Calculadora de factoriales: Haz un programa que solicite al usuario ingresar un número y luego calcule su factorial.
-Juego de adivinanzas: Escribe un programa que genere un número aleatorio entre 1 y 100 y le pida al usuario que lo adivine. El programa debe proporcionar pistas al usuario si el número que ingresó es demasiado alto o demasiado bajo.
+# Ejercicio Para Practicar if/else/logicos y bucles
+
+### Suma de múltiplos
+Escribe un programa que sume todos los números del 1 al 100 que sean múltiplos de 3 o 5.
+
+### Contador de vocales
+Crea un programa que solicite al usuario ingresar una palabra y cuente el número de vocales (a, e, i, o, u) en esa palabra.
+
+### Generador de tablas de multiplicar
+Haz un programa que solicite al usuario ingresar un número y luego genere la tabla de multiplicar correspondiente a ese número, desde 1 hasta 10.
+
+### Verificador de palíndromos
+Escribe un programa que verifique si una palabra ingresada por el usuario es un palíndromo, es decir, si se lee igual de adelante hacia atrás que de atrás hacia adelante.
+
+### Conversor de temperaturas
+Crea un programa que permita al usuario ingresar una temperatura en grados Celsius y la convierta a grados Fahrenheit, y viceversa.
+
+### Calculadora de factoriales
+Haz un programa que solicite al usuario ingresar un número y luego calcule su factorial.
+
+### Juego de adivinanzas
+Escribe un programa que genere un número aleatorio entre 1 y 100 y le pida al usuario que lo adivine. El programa debe proporcionar pistas al usuario si el número que ingresó es demasiado alto o demasiado bajo.
+
+---
+
+### Fizz Buzz
 Fizz Buzz es un juego de palabras para niños que enseña división. También es una pregunta clásica en las entrevistas técnicas en innumerables empresas. 🐝
 
 Aunque este desafío puede parecer simple para los codificadores experimentados, está diseñado para eliminar al 90% de los candidatos que no pueden aplicar sus conocimientos de codificación a un nuevo problema de manera creativa. ¿Quieres probarlo?
 
-Cree un programa fizz_buzz.py que genere números del 1 al 100.
+Cree un programa `fizz_buzz.py` que genere números del 1 al 100.
 
 Aquí está el truco:
 
-Para múltiplos de 3, imprima "Fizz" en lugar del número.
-Para múltiplos de 5, imprima "Buzz" en lugar del número.
-Para múltiplos de 3 y 5, imprima "FizzBuzz".
+- Para múltiplos de 3, imprima "Fizz" en lugar del número.
+- Para múltiplos de 5, imprima "Buzz" en lugar del número.
+- Para múltiplos de 3 y 5, imprima "FizzBuzz".
+
+---
+
+### Años de Escuela Secundaria
 Las escuelas secundarias estadounidenses suelen tener una duración de cuatro años, desde el primer año hasta el último año. 🚌💨
 
 Primero, pida al usuario que ingrese su calificación como un número entero.
 
-Cree un sistema de calificaciones de cuatro años de escuela secundaria usando una declaración if:elif:else.
+Cree un sistema de calificaciones de cuatro años de escuela secundaria usando una declaración `if:elif:else`.
 
-Para grados 9, imprimir 'Freshman'.
-Para grados 10, imprimir 'Sophomore'.
-Para grados 11, imprimir 'Junior'.
-Para grados 12, imprimir 'Senior'.
-Todo lo demás es 'TBD'.
+- Para grados 9, imprimir 'Freshman'.
+- Para grados 10, imprimir 'Sophomore'.
+- Para grados 11, imprimir 'Junior'.
+- Para grados 12, imprimir 'Senior'.
+- Todo lo demás es 'TBD'.
+
+---
+
+### Datos Divertidos de Snapple
 Snapple es una famosa marca de bebidas de té de Queens, Nueva York. Cada tapa de botella viene con un dato divertido y tonto.
 
-Utilice el módulo random para crear un número del 0 al 5.
+Utilice el módulo `random` para crear un número del 0 al 5.
 
-Luego use una declaración if:elif:else para imprimir uno de estos seis datos aleatorios de Snapple:
+Luego use una declaración `if:elif:else` para imprimir uno de estos seis datos aleatorios de Snapple:
 
-0 - 'Flamingos turn pink from eating shrimp.'
-1 - 'The only food that doesn't spoil is honey.'
-2 - 'Shrimp can only swim backwards.'
-3 - 'A taste bud's life span is about 10 days.'
-4 - 'It is impossible to sneeze while sleeping.'
-5 - 'It is illegal to sing off-key in North Carolina.'
+- 0 - 'Flamingos turn pink from eating shrimp.'
+- 1 - 'The only food that doesn't spoil is honey.'
+- 2 - 'Shrimp can only swim backwards.'
+- 3 - 'A taste bud's life span is about 10 days.'
+- 4 - 'It is impossible to sneeze while sleeping.'
+- 5 - 'It is illegal to sing off-key in North Carolina.'
+
+---
+
+### Estaciones del Año
 Ah, las cuatro estaciones del año: invierno, primavera, verano u otoño; ¡todo lo que tienes que hacer es llamar!
 
-Pregunte al usuario el número de mes usando la función input().
+Pregunte al usuario el número de mes usando la función `input()`.
 
-Verifique las cuatro estaciones usando una declaración if:elif:else y operadores lógicos:
+Verifique las cuatro estaciones usando una declaración `if:elif:else` y operadores lógicos:
 
-Para meses 1, 2, 3, imprimir 'Winter 🌨️'
-Para meses 4, 5, 6, imprimir 'Spring 🌱'
-Para meses 7, 8, 9, imprimir 'Summer 🌻'
-Para meses 10, 11, 12, imprimir 'Autumn 🍂'
-Todo lo demás es 'Invalid'.
-Los operadores lógicos en Python incluyen las palabras clave and y or. ¿Cuál deberías usar?
+- Para meses 1, 2, 3, imprimir 'Winter 🌨️'
+- Para meses 4, 5, 6, imprimir 'Spring 🌱'
+- Para meses 7, 8, 9, imprimir 'Summer 🌻'
+- Para meses 10, 11, 12, imprimir 'Autumn 🍂'
+- Todo lo demás es 'Invalid'.
+Los operadores lógicos en Python incluyen las palabras clave `and` y `or`. ¿Cuál deberías usar?
