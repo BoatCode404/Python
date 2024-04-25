@@ -347,3 +347,25 @@ Los operadores lógicos en Python incluyen las palabras clave `and` y `or`. ¿Cu
 ![Planets](https://media.giphy.com/media/14qXzUHiSWV6ak/giphy.gif)
 
 ### Si el usuario ingresa un número de planeta fuera del 1 al 7, se mostrará un mensaje que diga 'Número de planeta no válido'.
+
+
+
+# 🥳 Cuenta regresiva de año nuevo
+
+¡Recibe el Año Nuevo! Una fiesta de Nochevieja no está completa sin una cuenta atrás del 10 al 0.
+
+Utilice un bucle `for` y la función `range()` para una cuenta regresiva.
+
+La salida debería verse así:
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Happy New Year! 🥳
