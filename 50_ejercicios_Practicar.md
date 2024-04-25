@@ -247,3 +247,17 @@ Aquí está el truco:
 Para múltiplos de 3, imprima "Fizz" en lugar del número.
 Para múltiplos de 5, imprima "Buzz" en lugar del número.
 Aquí está la parte complicada: para múltiplos de 3 y 5, imprima "FizzBuzz".
+
+
+
+Las escuelas secundarias estadounidenses suelen tener una duración de cuatro años, desde el primer año hasta el último año. 🚌💨
+
+Primero, pida al usuario que ingrese su calificación como un número entero.
+
+Cree un sistema de calificaciones de cuatro años de escuela secundaria usando una declaración // if:elifelse
+
+gradees 9, imprimir'Freshman'
+gradees 10, imprimir'Sophomore'
+gradees 11, imprimir'Junior'
+gradees 12, imprimir'Senior'
+Todo lo demás es'TBD'
