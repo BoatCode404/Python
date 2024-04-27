@@ -397,3 +397,35 @@ elif grade > 60:
 else:
   print('F')
 ``````
+
+# Operadores lógicos
+
+Una cosa más que deberíamos aprender son los operadores lógicos.
+
+Los operadores lógicos, también conocidos como operadores booleanos, combinan y evalúan dos condiciones. Son los operadores `and`, `or` y `not`:
+
+- `and` devuelve `True` si ambas condiciones son `True` y devuelve `False` en caso contrario.
+- `or` devuelve `True` si al menos una de las condiciones es `True` y `False` en caso contrario.
+- `not` devuelve `True` si la condición es `False` y viceversa.
+
+Aquí hay unos ejemplos:
+
+```python
+if hunger > 4 and anger > 1:
+  print('¡Hangry!')
+
+if coffee > 0 or bubble_tea > 0:
+  print('😊')
+
+if not tired:
+  print('¡Es hora de codificar!')
+````````
+
+#### Quizás te preguntes: `and` y `or` son tremendamente similares, ¿cómo recuerdo las diferencias entre los dos? Analicemos esto en forma de tabla:
+
+| A      | B      | A y B  | A o B  |
+|--------|--------|--------|--------|
+| False  | False  | False  | False  |
+| False  | True   | False  | True   |
+| True   | False  | False  | True   |
+| True   | True   | True   | True   |
