@@ -291,18 +291,19 @@ Sí, exactamente. Cuando usas meses[num], estás accediendo al valor asociado a 
 
 
 
+# 10. Moneda
 
-10. Moneda
-# ¡ Felicitaciones!
+## ¡Felicitaciones!
+
 ¡Guau! ¡Aprendiste variables en Python! 🙌
 
 Aquí hay un resumen de todo lo que aprendimos en este capítulo:
 
-Tipos de datos: int, float, str, bool.
-Operadores aritméticos: +, -, *, /.
-El %módulo encuentra el resto.
-La **exponenciación encuentra el exponente.
-La input()función se utiliza para obtener información del usuario.
-La int()función convierte un valor en un número entero.
+- Tipos de datos: `int`, `float`, `str`, `bool`.
+- Operadores aritméticos: `+`, `-`, `*`, `/`.
+- El operador `%` encuentra el resto.
+- La `**` exponenciación encuentra el exponente.
+- La función `input()` se utiliza para obtener información del usuario.
+- La función `int()` convierte un valor en un número entero.
 
 
