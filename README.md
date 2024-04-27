@@ -429,3 +429,27 @@ if not tired:
 | False  | True   | False  | True   |
 | True   | False  | False  | True   |
 | True   | True   | True   | True   |
+
+# ¡Felicitaciones!
+
+Aquí hay un resumen de todo lo que aprendimos hasta ahora:
+
+- El flujo de control es el orden en que se ejecuta el código del programa.
+- La declaración `if` prueba la verdad de una condición y ejecuta el código si es `True`.
+- La cláusula `elif` se puede agregar entre `if` y `else`.
+- `else` ejecuta el código si ninguna de las condiciones anteriores es `True`.
+- Los operadores relacionales se utilizan para comparar dos valores: `==`, `!=`, `>`, `>=`, `<`, `<=`.
+- Los operadores lógicos se utilizan para combinar dos o más condiciones: `and`, `or`, `not`.
+
+Aquí hay una declaración `if` en acción por si acaso:
+
+```python
+if review >= 4.5:
+  print('Extraordinary')
+elif review >= 4:
+  print('Excellent')
+elif review >= 3:
+  print('Good')
+else:
+  print('Eh')
+``````
