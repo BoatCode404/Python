@@ -349,3 +349,22 @@ Aquí hay un resumen de todo lo que aprendimos en este capítulo:
 - La función `int()` convierte un valor en un número entero.
 
 
+# ¡Dios mío! 😱
+
+Debido a que el promedio de la clase fue muy bajo en el examen, ¡el maestro decidió aplicar una curva a las calificaciones! 😭
+
+---
+
+## Programa `grades.py`
+
+```python
+# Verifica si una calificación está por encima o por debajo de 55.
+
+# Asigna un valor a la calificación
+grade = 75
+
+# Comprueba si la calificación es mayor o igual a 55
+if grade >= 55:
+    print("¡Aprobaste!")
+else:
+    print("¡Fallaste!")
