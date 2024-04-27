@@ -368,3 +368,32 @@ if grade >= 55:
     print("¡Aprobaste!")
 else:
     print("¡Fallaste!")
+``````
+
+# 13. Niveles de pH
+
+## Operadores relacionales
+
+Muchas veces dentro de las condiciones, estamos comparando dos valores. Para hacerlo, necesitamos usar un tipo diferente de operadores llamados operadores relacionales que comparan valores:
+
+- `==` igual a
+- `!=` no igual a
+- `>` más grande que
+- `<` menos que
+- `>=` Mayor qué o igual a
+- `<=` Menos que o igual a
+
+Además, podemos usar la declaración `elif` (abreviatura de "else if") para proporcionar condiciones adicionales para verificar. A veces dos simplemente no son suficientes.
+
+```python
+if grade > 90:
+  print('A')
+elif grade > 80:
+  print('B')
+elif grade > 70:
+  print('C')
+elif grade > 60:
+  print('D')
+else:
+  print('F')
+``````
