@@ -283,7 +283,26 @@ len(palabra) - 1 es 5, porque queremos el índice del último carácter, pero lo
 -1 es el final de la secuencia, pero no se incluye. Por lo tanto, la secuencia de números irá desde 5 hasta 0 (es decir, los índices del último al primer carácter).
 -1 es el paso, lo que significa que iremos hacia atrás de uno en uno.
 Entonces, for i in range(len(palabra) - 1, -1, -1): genera una secuencia de números que representa los índices de los caracteres de "Python" en orden inverso, de 5 a 0. Es decir, 5, 4, 3, 2, 1, 0. Esto permite recorrer la palabra de atrás hacia adelante.
-
-
-
 Sí, exactamente. Cuando usas meses[num], estás accediendo al valor asociado a la clave num en el diccionario meses. En este caso, num es la clave que el usuario ingresó y meses[num] te dará el nombre del mes correspondiente a esa clave.
+
+
+
+
+
+
+
+
+10. Moneda
+# ¡ Felicitaciones!
+¡Guau! ¡Aprendiste variables en Python! 🙌
+
+Aquí hay un resumen de todo lo que aprendimos en este capítulo:
+
+Tipos de datos: int, float, str, bool.
+Operadores aritméticos: +, -, *, /.
+El %módulo encuentra el resto.
+La **exponenciación encuentra el exponente.
+La input()función se utiliza para obtener información del usuario.
+La int()función convierte un valor en un número entero.
+
+
