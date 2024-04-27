@@ -239,54 +239,96 @@ Aprendamos una nueva herramienta que es muy similar a la concatenación de caden
 La interpolación de cadenas es un proceso de sustitución de valores de variables en marcadores de posición en una cadena.
 Por ejemplo, si tiene una plantilla para saludar a una persona en un correo electrónico como 'Hi {name}, nice to meet you!', le gustaría reemplazar el marcador de posición {name}con un nombre real. Esta es la interpolación de cadenas.
 El programa anterior se puede recrear usando interpolación de cadenas usando el {}signo:
-# String interpolation
 
-for i in range(5):
-  print(f'The square of {i} is {i*i}')
+\# Interpolación de cadenas
+
+  
+
+para i en el rango(5):
+
+ print(f'El cuadrado de {i} es {i\*i}')
+
 Observe el fprefijo antes de las comillas.
-Casi correcto. En el caso de la función range(start, stop, step):
-•	El primer parámetro (start) es el valor inicial de la secuencia.
-•	El segundo parámetro (stop) es el valor final de la secuencia. El rango finaliza justo antes de este valor.
-•	El tercer parámetro (step) es el tamaño del paso o incremento entre los valores sucesivos de la secuencia.
-Entonces, para tu pregunta:
-•	El 0 no está presente en este caso. La secuencia comienza desde 99, que es el primer valor en este rango.
-•	Sí, puedes cambiar -1 a otro número, como 2, para incrementar la secuencia en pasos de 2 en 2. Por ejemplo, range(99, 0, 2) generará una secuencia que comienza en 99, termina justo antes de 0 y se decrementa de 2 en 2.
-for i in range(99,0,-1):
-   print(f"{i} botellas de cerveza en la pared, {i} botellas de cerveza.Toma uno abajo, pasa a tu alrededor, {i} botellas de cerveza en la pared...")
 
+Casi correcto. En el caso de la función range(start, stop, step):
+
+• El primer parámetro (start) es el valor inicial de la secuencia.
+
+• El segundo parámetro (stop) es el valor final de la secuencia. El rango finaliza justo antes de este valor.
+
+• El tercer parámetro (paso) es el tamaño del paso o incremento entre los valores sucesivos de la secuencia.
+
+Entonces, para tu pregunta:
+
+• El 0 no está presente en este caso. La secuencia comienza desde 99, que es el primer valor en este rango.
+
+• Sí, puedes cambiar -1 a otro número, como 2, para incrementar la secuencia en pasos de 2 en 2. Por ejemplo, range(99, 0, 2) generará una secuencia que comienza en 99, termina justo antes de 0 y se disminuye de 2 en 2.
+
+para i en el rango(99,0,-1):
+
+ print(f"{i} botellas de cerveza en la pared, {i} botellas de cerveza. Toma uno abajo, pasa a tu alrededor, {i} botellas de cerveza en la pared...")
+
+  
+
+  
 
 El whilebucle se repite una y otra vez mientras la condición sea verdadera:
-while coffee < 1:
-  print('tired')
+
+mientras café < 1:
+
+ imprimir('cansado')
+
+  
 
 El forbucle y la range()función para iterar un cierto número de veces:
-for i in range(10):
-  print(i)
 
-1.	Se utilizó letra.lower() para convertir la letra a minúscula antes de compararla, de esta manera se consideran tanto las mayúsculas como las minúsculas. Letra es la variable
+para i en el rango(10):
 
+ imprimir(yo)
 
-La función range() en Python crea un rango de números enteros, pero no puede manejar directamente cadenas de texto. Por eso, Python te está devolviendo un error TypeError porque estás intentando utilizar un objeto de tipo str donde se esperaba un número entero.
+  
 
+1\. Se utiliza letra.lower() para convertir la letra a minúscula antes de compararla, de esta manera se consideran tanto las mayúsculas como las minúsculas. Letra es la variable
+
+  
+
+  
+
+La función range() en Python crea un rango de números enteros, pero no puede manejar directamente cadenas de texto. Por eso, Python te está desarrollando un error TypeError porque estás intentando utilizar un objeto de tipo str donde se esperaba un número entero.
+
+  
+
+  
 
 Entiendo, intentaré explicarlo de manera más clara.
 
+  
+
 En Python, la función range() crea una secuencia de números. Tiene tres parámetros:
 
+  
+
 El primer parámetro es el inicio de la secuencia.
+
 El segundo parámetro es el final de la secuencia (no inclusivo).
+
 El tercer parámetro es el paso, es decir, la diferencia entre cada número en la secuencia.
+
 Ahora, para entender la línea for i in range(len(palabra) - 1, -1, -1): usando el ejemplo de la palabra "Python":
 
+  
+
 len(palabra) es 6, ya que "Python" tiene 6 letras.
+
 len(palabra) - 1 es 5, porque queremos el índice del último carácter, pero los índices en Python comienzan desde 0.
--1 es el final de la secuencia, pero no se incluye. Por lo tanto, la secuencia de números irá desde 5 hasta 0 (es decir, los índices del último al primer carácter).
--1 es el paso, lo que significa que iremos hacia atrás de uno en uno.
-Entonces, for i in range(len(palabra) - 1, -1, -1): genera una secuencia de números que representa los índices de los caracteres de "Python" en orden inverso, de 5 a 0. Es decir, 5, 4, 3, 2, 1, 0. Esto permite recorrer la palabra de atrás hacia adelante.
-Sí, exactamente. Cuando usas meses[num], estás accediendo al valor asociado a la clave num en el diccionario meses. En este caso, num es la clave que el usuario ingresó y meses[num] te dará el nombre del mes correspondiente a esa clave.
 
+\-1 es el final de la secuencia, pero no se incluye. Por lo tanto, la secuencia de números irá desde 5 hasta 0 (es decir, los índices del último al primer carácter).
 
+\-1 es el paso, lo que significa que iremos hacia atrás de uno en uno.
 
+Entonces, for i in range(len(palabra) - 1, -1, -1): genera una secuencia de números que representa los índices de los caracteres de "Python" en orden inverso, de 5 a 0. Es decir, 5 , 4, 3, 2, 1, 0. Esto permite recorrer la palabra de atrás hacia adelante.
+
+Sí, exactamente. Cuando usas meses\[num\], accediendo al valor asociado a la clave num en el diccionario meses. En este caso, num es la clave que el usuario ingresó y meses\[num\] te dará el nombre del mes correspondiente a esa clave.
 
 
 
