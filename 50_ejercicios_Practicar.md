@@ -426,3 +426,27 @@ Cree un programa que use un forbucle y range()una función para mostrar el sigui
   
 
 Debería verse así pero con 25 filas en total.
+
+
+
+Un número se "cuadra" cuando se multiplica por sí mismo o se eleva a la segunda potencia (por ejemplo, 4² = 4 x 4 = 16).
+
+  
+
+Primero, solicite al usuario un número entero con int(input()) y guárdelo en una variable numérica. Luego, define una variable total con un valor inicial de 0.
+
+  
+
+Nota: Puede pasar un mensaje de cadena a int(input()).
+
+  
+
+A continuación, utilice una función for loop y range() para calcular el total de los cuadrados de todos los números enteros desde 1 hasta ese número.
+
+  
+
+Por último, imprime la salida como un valor entero.
+
+  
+
+Por ejemplo, si el número es 5, el total debería ser 55 porque:
