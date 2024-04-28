@@ -443,10 +443,47 @@ Nota: Puede pasar un mensaje de cadena a int(input()).
 
 A continuación, utilice una función for loop y range() para calcular el total de los cuadrados de todos los números enteros desde 1 hasta ese número.
 
-  
 
 Por último, imprime la salida como un valor entero.
 
   
 
 Por ejemplo, si el número es 5, el total debería ser 55 porque:
+
+
+
+
+
+
+
+
+Punto de control ⛳️
+====================
+
+¡Felicitaciones por completar los primeros cuatro capítulos de The Legend of Python! Ahora usamos las habilidades que ha aprendido (variables, declaraciones de flujo de control y bucles) para crear un proyecto de Python por su cuenta.
+
+Utilice [Python Code Editor](https://www.codex.io/editor/python) , [Visual Studio Code](https://code.visualstudio.com/) o el editor de código que prefiera para este proyecto.
+
+[\#](https://www.codex.io/python/checkpoint-project/terminal-adventure-game#terminal-adventure-game) Juego de terminales de aventuras
+-------------------------------------------------- -------------------------------------------------- ------------------------------------
+
+¡Crea un terminal\_game.py que guía al jugador a través de una cautivadora aventura de minijuegos! En cada paso de la aventura, al jugador se le debe presentar 2 o más opciones sobre dónde ir a continuación.
+
+Sea tan creativo como quiera con esto, ¡pero asegúrese de que su código se ejecute!
+
+Algunas ideas incluyen:
+
+* Una aventura espacial de un equipo de individuos curiosos que exploran una galaxia desconocida.
+* Una historia de "Un día en la vida" que te guía a través de las decisiones que toma el personaje principal en función de condiciones como la hora del día, las acciones que realiza el jugador, etc.
+* Un mini-RPG (juego de rol) clásico con `hp`puntos de salud, movimientos de personajes como atacar/bloquear/curar y NPC (personajes no jugadores) que atacan generados en un generador de números aleatorios.
+
+[\#](https://www.codex.io/python/checkpoint-project/terminal-adventure-game#submit-your-project) Envíe su proyecto
+-------------------------------------------------- -------------------------------------------------- -----------------
+
+Después de completar su proyecto, únase a nuestra comunidad y envíelo al canal [Checkpoint](https://www.codex.io/community/checkpoint-project). ¡Uno de los miembros de nuestro equipo se comunicará con usted con sus comentarios y el estado de finalización!
+
+Si tiene alguna pregunta, no dude en hacerla en los canales de Discord [#python](https://discord.gg/sY4kMHu39d) o [#checkpoint](https://discord.com/channels/960713185055375478/1135615773797265448) .
+
+¡Feliz codificación!
+
+¡Obtenga ayuda de Code Mentors y envíe su proyecto para revisión!
