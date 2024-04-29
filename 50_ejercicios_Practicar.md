@@ -487,3 +487,24 @@ Si tiene alguna pregunta, no dude en hacerla en los canales de Discord [#python]
 ¡Feliz codificación!
 
 ¡Obtenga ayuda de Code Mentors y envíe su proyecto para revisión!
+
+
+
+
+
+
+
+
+
+
+
+ree un programa comestibles.py`grocery` con una lista de cosas que necesita obtener de la tienda:
+
+* ``🥚 Huevos''
+* ``🥑 Aguacates''
+* ``🍪 Galletas''
+* ``🌶 Mermelada de Pimiento Picante''
+* ``🫐 Arándanos''
+* ``🥦 Brócoli''
+
+¡Imprime `grocery`para asegurarte de que lo tienes!
