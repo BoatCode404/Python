@@ -559,3 +559,77 @@ Más datos sobre las listas:
 \- No hay límite para la cantidad de datos que puede contener una lista.
 
 \- Instrucciones
+
+
+# Entra en juego el índice!
+
+# Un índice es la posición de un elemento en una lista.
+
+# Python tiene un índice de 0, lo que significa que los índices comienzan en 0:
+
+vocales = ['a', 'e', 'i', 'o', 'u']
+# Índice: 0 1 2 3 4
+
+# El elemento en el índice 0 es 'a'.
+# El elemento en el índice 1 es 'e'.
+# El elemento en el índice 2 es 'i'.
+# El elemento en el índice 3 es 'o'.
+# El elemento en el índice 4 es 'u'.
+
+# Para generar cada uno de los elementos, podemos usar la `nombre[indice]` sintaxis:
+
+print(vocales[0]) # Salida: a
+print(vocales[1]) # Salida: e
+print(vocales[2]) # Salida: i
+print(vocales[3]) # Salida: o
+print(vocales[4]) # Salida: u
+
+# Índice negativo
+
+# Otra cosa a tener en cuenta sobre el índice es que puede ser positivo o negativo.
+
+# Si el índice es negativo, comienza desde -1 (que es el último elemento de una lista) y retrocede desde allí.
+
+vocales = ['a', 'e', 'i', 'o', 'u']
+# Índice: 0 1 2 3 4
+# Índice: -5 -4 -3 -2 -1
+
+# El elemento en el índice -5 es 'a'.
+# El elemento en el índice -4 es 'e'.
+# El elemento en el índice -3 es 'i'.
+# El elemento en el índice -2 es 'o'.
+# El elemento en el índice -1 es 'u'.
+
+# Rebanar
+
+# ¿Hay alguna manera de obtener más de un artículo individual? ¡Sí! Se llama rebanar.
+
+# Cortar es donde podemos acceder a ciertas partes de una secuencia.
+
+# En lugar de acceder a un elemento utilizando un único índice como `nombre[indice]`, podemos obtener varios elementos especificando dónde comenzar y dónde terminar el rango como `nombre[inicio: fin]`.
+
+# Por ejemplo:
+
+vocales = ['a', 'e', 'i', 'o', 'u']
+
+print(vocales[0:3])
+print(vocales[1:3])
+
+# Producción:
+# ['a', 'e', 'i']
+# ['e', 'i']
+
+# Comienza desde el `inicio` índice (inclusive) y termina antes del `fin` índice (no incluido). Entonces, en el ejemplo anterior, `print(vocales[1:3])` solo se devolvieron elementos en los índices 1 y 2, y no se incluyó el índice 3.
+
+# Error de índice
+
+# Hay un error común en Python cuando se trata de secuencias llamadas IndexError. Esto es lo que sucede cuando el índice está fuera del rango de una lista.
+
+# Por ejemplo, cuando intentamos hacer `vocales[5]`, obtendremos algo como:
+
+# Rastreo (llamadas recientes más última):
+#     print(vocales[5])
+# IndexError: índice de lista fuera de rango
+
+# ¡Así que asegúrate de tener cuidado con eso!
+
