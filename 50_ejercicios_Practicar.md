@@ -520,3 +520,32 @@ Imprima el primer artículo y el segundo artículo. ¿Qué obtuviste?
 A continuación, utilice el corte para imprimir los elementos tercero, cuarto y quinto.
 
 Intente imprimir el elemento del índice 9 para verlo IndexErrorantes de continuar.
+
+
+
+
+
+
+
+
+
+Por supuesto, aquí tienes el ejercicio en formato Markdown:
+
+```markdown
+# Ejercicio de Club de Lectura sobre Startups Tecnológicas 📚
+
+1. **Crear un programa `Reading_list.py`** que almacene los siguientes libros en una lista llamada `books`:
+   - 'Zero to One'
+   - 'The Lean Startup'
+   - 'The Mom Test'
+   - 'Make It Stick'
+   - 'Life in Code'
+
+2. **Agregar un libro más a la lista:** Supongamos que queremos incluir 'Zero to Sold' en nuestra lista. Utiliza un método de lista para agregarlo.
+
+3. **Eliminar libros que ya se han leído:** Imagina que ya hemos terminado de leer 'Zero to One' y 'The Lean Startup'. Utiliza el método `.remove()` para eliminar uno y el método `.pop()` para eliminar el otro.
+
+4. **Imprimir la lista actualizada:** Asegúrate de imprimir la lista para verificar que los cambios se han realizado correctamente.
+```
+
+Este ejercicio te guiará para crear y modificar una lista de libros en Python, ideal para un club de lectura enfocado en startups tecnológicas. ¡Espero que disfrutes completándolo!
