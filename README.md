@@ -713,3 +713,61 @@ print(message + str(28))
 Y no olvide pegar también su mensaje de error en una búsqueda de Google.
 
 
+Declaraciones If anidadas
+# Sintaxis
+A medida que nuestro programa se vuelve más largo y complejo, también lo hace la toma de decisiones de nuestro código. Es posible que ya se haya encontrado con situaciones en las que desee comprobar si hay otra condición después de que una condición sea verdadera.
+
+¿Sabes qué más podemos hacer con las declaraciones if// ?elifelse
+
+¡Podemos anidarlos uno dentro del otro! 🪹
+
+Una declaración if anidada es una ifdeclaración dentro de otra ifdeclaración.
+
+Supongamos que tenemos una declaración if/ simple else:
+
+if age >= 18:
+  print('You are old enough to apply for a loan.')
+else:
+  print('You are too young to apply for a loan.')
+
+Agreguemos otra declaración if/ elseanidada dentro de la declaración externa if:
+
+if age >= 18:
+  if income >= 20000:
+    print('You are eligible for a loan.')
+  else:
+    print('Your income is too low to be eligible for a loan.')
+else:
+  print('You are too young to apply for a loan.')
+
+En Python, la sangría es la única forma de determinar el nivel de anidamiento. Debido a que las líneas 2 a 5 tienen más sangría, están dentro de la ifdeclaración exterior.
+
+Aquí está el flujo de control del programa:
+
+declaraciones if anidadas
+
+Nota: Pero tenga cuidado. Anidar estas declaraciones demasiado profundamente (más allá de 2 o 3 niveles) generalmente no es una buena idea, ya que esto podría hacer que su programa sea difícil de leer.
+
+# Ejemplo
+El siguiente ejemplo ilustra cómo las declaraciones de flujo de control anidadas pueden afectar la salida de un programa:
+
+weather = 'Sunny'
+humidity = 35
+
+if weather == 'Sunny':
+  if humidity < 60:
+    print('Let’s go to the beach! 🏖️')
+  else:
+    print('Hmmm, it’s a little humid for a beach day.')
+else:
+  print('It’s not sunny today... let’s try for another day.')
+
+Esto imprimirá lo siguiente:
+
+Let's go to the beach! 🏖️
+
+Si humidityes 65, entonces el resultado sería:
+
+Hmmm, it's a little humid for a beach day.
+
+¡Ahora puedes agregar capas de toma de decisiones a tus programas!
