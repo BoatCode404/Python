@@ -819,3 +819,58 @@ El bucle externo whilesiempre que la not_foundvariable booleana sea True.
 Para el forbucle interno, estamos iterando de 1 a 10. Nos detenemos temprano cuando la ivariable es igual a lucky_number.
 
 Para salir del forbucle, utilizamos la breakpalabra clave. Para salir del whilebucle exterior, reasignamos Falsea la notFoundvariable.****
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Listas
+22. Lista de compras
+# Listas
+¡Bienvenido a un capítulo completamente nuevo, donde aprenderemos sobre una forma sencilla de almacenar una gran cantidad de valores de datos! 📦 = ⚽️🏀⚾️🥎🏐🏈
+
+Supongamos que queremos crear un programa que almacene nuestras calificaciones escolares para tareas y exámenes, necesitaríamos crear un montón de variables como estas:
+
+# Storing grades in a class
+
+hw_grade1 = 98
+hw_grade2 = 87
+hw_grade3 = 92
+hw_grade4 = 96
+
+quiz_grade1 = 9
+quiz_grade2 = 6
+quiz_grade3 = 8
+
+Crear un montón de variables de esta manera es tedioso y propenso a errores. ¿Te imaginas cómo sería con más de 1000 variables?
+
+Las listas se utilizan para almacenar varios elementos en una sola variable.
+
+Podemos reescribir el código anterior para:
+
+# Storing grades in a class
+
+hw_grades = [98, 87, 92, 96]
+quiz_grades = [9, 6, 8]
+
+La sintaxis de una lista es la siguiente:
+
+list_name = [item1, item2, item3, item4]
+
+Las listas se crean utilizando corchetes [y ]. Y los elementos están separados por ,comas.
+
+# Ejemplos
+Datos que podrían almacenarse en una lista:
+
+Temperaturas en la última semana.
+Nivel de pH de la planta de oficinas en la última hora.
+Las consultas recientes que un usuario escribió en una barra de búsqueda.
+temp = [86, 80, 82, 87, 79, 80, 81, 82]
+ph = [7.2, 7.1, 7.0, 7.0, 7.2, 7.1]
+now_playing = ['Barbie', 'Oppenheimer', 'Talk to Me', 'Blue Beetle']
+
+Más datos sobre las listas:
+
+Los elementos de la lista permiten valores duplicados.
+Las listas pueden tener valores con diferentes tipos de datos.
+No hay límite para la cantidad de datos que puede contener una lista.
+Instrucciones
