@@ -972,7 +972,7 @@ Aquí tienes el texto convertido a Markdown, con una explicación detallada y ej
 
 ---
 
-**KEY=:**
+# Explicacion del KEY=
 
 El parámetro `key` se utiliza para especificar una función que define el criterio de ordenamiento. Por ejemplo, si queremos ordenar una lista no solo de menor a mayor, sino también según la longitud de caracteres de cada elemento en la lista, podemos usar el parámetro `key`.
 
