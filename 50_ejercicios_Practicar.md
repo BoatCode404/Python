@@ -490,14 +490,6 @@ Si tiene alguna pregunta, no dude en hacerla en los canales de Discord [#python]
 
 
 
-
-
-
-
-
-
-
-
 ree un programa comestibles.py`grocery` con una lista de cosas que necesita obtener de la tienda:
 
 * ``🥚 Huevos''
@@ -508,3 +500,23 @@ ree un programa comestibles.py`grocery` con una lista de cosas que necesita obte
 * ``🥦 Brócoli''
 
 ¡Imprime `grocery`para asegurarte de que lo tienes!
+
+
+
+
+
+Cree un programa todo.py que defina una todolista que contenga los siguientes elementos:
+
+'🏦 Get quarters.'
+'🧺 Do laundry.'
+'🌳 Take a walk.'
+'💈 Get a haircut.'
+'🍵 Make some tea.'
+'💻 Complete Lists chapter.'
+'💖 Call mom.'
+'📺 Watch My Hero Academia.'
+Imprima el primer artículo y el segundo artículo. ¿Qué obtuviste?
+
+A continuación, utilice el corte para imprimir los elementos tercero, cuarto y quinto.
+
+Intente imprimir el elemento del índice 9 para verlo IndexErrorantes de continuar.
