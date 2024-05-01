@@ -1180,3 +1180,73 @@ Otra diferencia notable es que, si bien no todas las funciones integradas están
     length = len(numbers)
     print(length)  # Salida: 5
     ```
+
+    # FOR en Listas y LEN
+
+Ahora quizás te preguntes: ¿hay alguna manera de iterar sobre una lista? 🔁
+
+**Sí**, ¡hay varias formas de iterar sobre una lista en Python! En este ejercicio, te mostraremos diferentes formas de hacerlo.
+
+### Por Entrada
+La primera forma es utilizar un bucle `for-in`. He aquí un ejemplo:
+
+```python
+snowfall = [0.3, 0.0, 0.0, 1.2, 3.9, 2.2, 0.8]
+
+for i in snowfall:
+    print(i)
+```
+
+`i` es una variable que representa un elemento dentro de la lista, cada vez que se itera el bucle. Esto significa que para cada elemento `i` de la lista `snowfall`, imprima el elemento. La salida será:
+
+```
+0.3
+0.0
+0.0
+1.2
+3.9
+2.2
+0.8
+```
+
+### For-In con Range() y Len()
+También podemos recorrer una lista usando el índice (posición). Para hacerlo, necesitamos la función `range()` y la función `len()`.
+
+Como recordatorio:
+
+- La función `range()` devuelve una secuencia de números, del 0 al número especificado.
+- La función `len()` devuelve la longitud de la lista.
+
+```python
+snowfall = [0.3, 0.0, 0.0, 1.2, 3.9, 2.2, 0.8]
+
+for i in range(len(snowfall)):
+    print(snowfall[i])
+```
+
+Aquí `i` es un índice. Esto significa que para cada índice desde 0 hasta la longitud de `snowfall` menos 1 (7 - 1 = 6), imprima el elemento en ese índice.
+
+Este es un código en Python que imprime cada elemento de la lista `snowfall`. La lista `snowfall` contiene los datos de acumulación de nieve durante varios días.
+
+El código utiliza un bucle `for` para iterar sobre cada elemento de la lista `snowfall`. La función `len(snowfall)` devuelve la longitud de la lista `snowfall`, y `range(len(snowfall))` genera una secuencia de números desde 0 hasta la longitud de la lista `snowfall` menos 1.
+
+Por lo tanto, `for i in range(len(snowfall)):` itera sobre los índices de la lista `snowfall`, y `snowfall[i]` accede al elemento en la posición `i` de la lista `snowfall`. Finalmente, `print(snowfall[i])` imprime cada elemento de la lista `snowfall` en una línea separada.
+
+El resultado de este código sería:
+
+```
+0.3
+0.0
+0.0
+1.2
+3.9
+2.2
+0.8
+```
+En Python, los índices de una lista comienzan desde 0. Por lo tanto, si una lista tiene `n` elementos, los índices válidos van desde 0 hasta `n-1`.
+
+Cuando usamos `range(len(snowfall))`, `len(snowfall)` devuelve el número de elementos en la lista `snowfall`, y `range()` genera una secuencia de números desde 0 hasta `len(snowfall) - 1`, para que coincida con los índices válidos de la lista.
+
+Por ejemplo, si `len(snowfall)` es 7, el rango será `range(7)`, que generará números desde 0 hasta 6, que son los índices válidos para una lista con 7 elementos.
+
+
