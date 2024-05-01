@@ -547,3 +547,23 @@ Intente imprimir el elemento del índice 9 para verlo IndexErrorantes de continu
 ```
 
 Este ejercicio te guiará para crear y modificar una lista de libros en Python, ideal para un club de lectura enfocado en startups tecnológicas. ¡Espero que disfrutes completándolo!
+
+
+# Ejercicio: Mixtape
+
+En los viejos tiempos, un mixtape era una recopilación de música, una lista de reproducción, grabada en una cinta de casete o en un CD.
+
+Crea un programa `mixtape.py` y piensa en un tema para las canciones.
+
+Haz una lista de nombres `playlist` y agrega algunas canciones.
+
+💿 Tema: Indie Travel Songs
+  'Porches - rangerover',
+  'Mount Eerie - You Swan, Go On',
+  'Carolyn Polachek - Look at Me Now',
+  'Pinegrove - Darkness',
+  'LVL UP - Spirit Was',
+  'Mitski - First Love / Late Spring'
+
+
+¡Ahora recorra la lista e imprima todo! 📻
