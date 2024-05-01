@@ -874,3 +874,73 @@ Los elementos de la lista permiten valores duplicados.
 Las listas pueden tener valores con diferentes tipos de datos.
 No hay límite para la cantidad de datos que puede contener una lista.
 Instrucciones
+
+# índice
+Los elementos de la lista se pueden cambiar, lo que significa que podemos actualizar elementos individuales dentro de una lista.
+
+Pero antes de hacer eso, ¿cómo podemos acceder a un elemento individual dentro de una lista? Bueno, ¡aquí es donde entra en juego el índice!
+
+Un índice es la posición de un elemento en una lista.
+
+Python tiene un índice de 0, lo que significa que los índices comienzan en 0:
+
+vowels = ['a', 'e', 'i', 'o', 'u']
+# Index:   0    1    2    3    4
+
+El elemento en el índice 0 es 'a'.
+El artículo en el índice 1 es 'e'.
+El artículo en el índice 2 es 'i'.
+El artículo en el índice 3 es 'o'.
+El artículo en el índice 4 es 'u'.
+Para generar cada uno de los elementos, podemos usar la name[index]sintaxis:
+
+print(vowels[0])     # Output: a
+print(vowels[1])     # Output: e
+print(vowels[2])     # Output: i
+print(vowels[3])     # Output: o
+print(vowels[4])     # Output: u
+
+# Índice negativo
+Otra cosa a tener en cuenta sobre el índice es que puede ser positivo o negativo.
+
+Si el índice es negativo, comienza desde -1 (que es el último elemento de una lista) y retrocede desde allí.
+
+vowels = ['a', 'e', 'i', 'o', 'u']
+# Index:   0    1    2    3    4
+# Index:  -5   -4   -3   -2   -1
+
+El elemento en el índice -5 es 'a'.
+El elemento en el índice -4 es 'e'.
+El elemento en el índice -3 es 'i'.
+El elemento en el índice -2 es 'o'.
+El elemento en el índice -1 es 'u'.
+# Rebanar
+¿Hay alguna manera de obtener más de un artículo individual? ¡Sí! Se llama rebanar.
+
+Cortar es donde podemos acceder a ciertas partes de una secuencia.
+
+En lugar de acceder a un elemento utilizando un único índice como name[index], podemos obtener varios elementos especificando dónde comenzar y dónde terminar el rango como name[start : end].
+
+Por ejemplo:
+
+vowels = ['a', 'e', 'i', 'o', 'u']
+
+print(vowels[0 : 3])
+print(vowels[1 : 3])
+
+# Output:
+# ['a', 'e', 'i']
+# ['e', 'i']
+
+Comienza desde el startíndice (inclusivo) y termina antes del endíndice (no incluido). Entonces, en el ejemplo anterior, print(vowels[1 : 3])solo se devolvieron elementos en los índices 1 y 2, y no se incluyó el índice 3.
+
+# Error de índice
+Hay un error común en Python cuando se trata de secuencias llamado IndexError. Esto es lo que sucede cuando el índice está fuera del rango de una lista.
+
+Por ejemplo, cuando intentamos hacer vowels[5], obtendremos algo como:
+
+Traceback (most recent call last):
+    print(vowels[5])
+IndexError: list index out of range
+
+¡Así que asegúrate de tener cuidado con eso!
