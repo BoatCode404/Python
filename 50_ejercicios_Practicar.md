@@ -529,9 +529,7 @@ Intente imprimir el elemento del índice 9 para verlo IndexErrorantes de continu
 
 
 
-Por supuesto, aquí tienes el ejercicio en formato Markdown:
 
-```markdown
 # Ejercicio de Club de Lectura sobre Startups Tecnológicas 📚
 
 1. **Crear un programa `Reading_list.py`** que almacene los siguientes libros en una lista llamada `books`:
