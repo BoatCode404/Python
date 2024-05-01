@@ -944,3 +944,24 @@ Traceback (most recent call last):
 IndexError: list index out of range
 
 ¡Así que asegúrate de tener cuidado con eso!
+
+# Funciones integradas
+Python viene con algunas funciones integradas, incluidas algunas específicas para listas.
+
+Aquí hay unos ejemplos:
+
+La len()función devuelve la longitud total de una lista.
+La max()función devuelve el valor máximo en una lista.
+La min()función devuelve el valor mínimo en una lista.
+Supongamos que tenemos dos listas que se ven así:
+
+stock1_prices = [2.52, 2.44, 2.32, 2.41, 2.51, 2.50, 2.44]
+stock2_prices = [8.36, 8.31, 8.21, 8.21, 8.25, 8.11, 8.13]
+
+print(len(stock1_prices))      # Output: 7
+print(max(stock1_prices))      # Output: 2.52
+print(min(stock2_prices))      # Output: 8.11
+
+Podemos encontrar la longitud, el mínimo y el máximo de una lista en una fracción de segundo, ¡incluso si la lista tiene más de 1000 elementos!
+
+Para obtener más información, aquí están todas las funciones integradas de Python . Sin embargo, ¡no todas las funciones integradas están diseñadas para funcionar con listas!
