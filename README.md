@@ -713,8 +713,8 @@ print(message + str(28))
 Y no olvide pegar también su mensaje de error en una búsqueda de Google.
 
 
-Declaraciones If anidadas
-# Sintaxis
+# Declaraciones If anidadas
+Sintaxis
 A medida que nuestro programa se vuelve más largo y complejo, también lo hace la toma de decisiones de nuestro código. Es posible que ya se haya encontrado con situaciones en las que desee comprobar si hay otra condición después de que una condición sea verdadera.
 
 ¿Sabes qué más podemos hacer con las declaraciones if// ?elifelse
@@ -771,3 +771,51 @@ Si humidityes 65, entonces el resultado sería:
 Hmmm, it's a little humid for a beach day.
 
 ¡Ahora puedes agregar capas de toma de decisiones a tus programas!
+
+
+
+# Bucles anidados
+De manera similar a como puedes anidar declaraciones if// , elif¡ elsetambién puedes anidar bucles!
+
+Un bucle anidado es un bucle que tiene otro bucle dentro. Por ejemplo:
+
+for i in range(1, 6):
+  for j in range(1, 6):
+    print(i * j)
+
+Hay un forbucle exterior con un forbucle interior anidado. Para recorrer una iteración del bucle externo, tenemos que recorrer todo el bucle anidado.
+
+En Python podemos hacer lo mismo con whilelos bucles anidados:
+
+i = 0
+while i < 6:
+  j = 0
+  while j < 6:
+    print(i * j)
+    j = j + 1
+  i = i + 1
+
+Fuera de cada uno while, inicializamos variables de contador simples iy j. Con cada iteración del whilebucle exterior, recorremos 6 iteraciones del whilebucle anidado. Podemos salir de estos bucles actualizando las variables del contador iy jdespués de cada iteración.
+
+# Ejemplo
+¡También puedes usar una combinación de tipos de bucles para anidar! Mira el siguiente ejemplo:
+
+import random
+
+lucky_number = random.randint(1, 10)
+not_found = True
+
+while not_found:
+  for i in range(1, 10):
+    if i == lucky_number:
+      not_found = False
+      break
+    else:
+      print(i)
+print(f"Yay I got my lucky number {lucky_number}! 🍀")
+
+El bucle externo whilesiempre que la not_foundvariable booleana sea True.
+
+Para el forbucle interno, estamos iterando de 1 a 10. Nos detenemos temprano cuando la ivariable es igual a lucky_number.
+
+Para salir del forbucle, utilizamos la breakpalabra clave. Para salir del whilebucle exterior, reasignamos Falsea la notFoundvariable.****
