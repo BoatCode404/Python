@@ -1250,3 +1250,17 @@ Cuando usamos `range(len(snowfall))`, `len(snowfall)` devuelve el número de ele
 Por ejemplo, si `len(snowfall)` es 7, el rango será `range(7)`, que generará números desde 0 hasta 6, que son los índices válidos para una lista con 7 elementos.
 
 
+# ¡Felicitaciones!
+
+Acabas de agregar una herramienta muy útil a tu caja de herramientas de codificación: **¡listas!**
+
+He aquí un resumen del capítulo:
+
+- Las listas se utilizan para almacenar diferentes elementos en una sola variable.
+- Un índice es la posición de un elemento en una lista. Las listas de Python están indexadas en 0.
+- Slicing puede acceder a ciertas partes de una lista con `name[start:end]`.
+- Python tiene funciones integradas como `len()`, `max()`, `min()`.
+- Las listas tienen métodos integrados como `.append()`, `.insert()`, `.remove()`, `.pop()`.
+- Podemos iterar sobre una lista usando `for-in`.
+
+
