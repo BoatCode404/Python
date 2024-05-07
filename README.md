@@ -1334,6 +1334,71 @@ En el ejemplo anterior, la variable `name` es el parámetro y el valor 'Lillian'
 
 Por cierto, ya hemos estado usando argumentos todo el tiempo, al llamar a la `print()` función, por ejemplo. En `print('Yo!')`, el 'Yo!' es el argumento.
 
-## Instrucciones
 
+# Valor de Retorno
+
+Aprendimos que las funciones pueden recibir entradas, pero ¿sabías que las funciones también pueden tener salidas? De hecho, ¡cada función de Python tiene una salida!
+
+## Uso de la Palabra Clave `return`
+
+La palabra clave `return` se utiliza para terminar una función y generar un valor:
+
+```python
+def function_name():
+  # Código dentro de la función
+  return value
+```
+
+Cuando no agregamos `return`, Python devolverá implícitamente el valor predeterminado `None` como valor de retorno.
+
+## Ejemplo de Función con `return`
+
+Cuando queremos ser explícitos:
+
+```python
+def add(x, y):
+  answer = x + y
+  return answer
+```
+
+Se agrega una palabra clave `return`, más la variable que queremos retornar.
+
+## Interacción con la Salida de la Función
+
+Ahora, cuando llamemos a la función, habrá una salida con la que podremos interactuar:
+
+```python
+total = add(4.99, 9.99)   # total es 14.98
+```
+
+¡Esto significa que podemos imprimir una llamada de función!
+
+```python
+print(add(3, 4))          # Lo mismo que print(7)
+print(add(1, 5))          # Lo mismo que print(6)
+print(add(5, 3))          # Lo mismo que print(8)
+```
+
+Aquí, la función `add()` devuelve un valor y ese valor devuelto es un argumento para la función `print()`.
+
+La salida sería:
+
+```
+7
+6
+8
+```
+
+**Nota:** Cuando se llega a una declaración `return`, Python detendrá la ejecución de la función actual y enviará un valor al lugar donde se llamó a la función.
+
+## Imprimir Versus Devolver
+
+Ahora te preguntarás, ¿por qué devolvemos valores en lugar de imprimirlos?
+
+Bueno, las funciones `print()` pueden estar en cualquier parte del programa: dentro o fuera de una función, mientras que `return` es la salida de una función; no es necesario que imprima lo que devuelve.
+
+Como una regla de oro:
+
+- Utilice `return` en una función cuando desee enviar valores de un punto del código a otro.
+- Utilice `print()` en una función cuando desee mostrar algún texto al usuario.
 
