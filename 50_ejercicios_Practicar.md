@@ -601,3 +601,21 @@ Llame a la función `fortune()` tres veces para ver qué fortunas obtiene.
 ### Bonificación
 
 Si eres atrevido, reescribe la función sin usar `if/elif/else`.
+
+
+
+# Proyecto de Calculadora en Python
+
+Probemos un proyecto clásico de informática: ¡un sencillo programa de calculadora! 🔢
+
+Cree un programa `calculadora.py` y defina estas cinco funciones:
+
+- `add(a, b)` que suma dos números `a` y `b`.
+- `subtract(a, b)` que resta dos números `a` y `b`.
+- `multiply(a, b)` que multiplica dos números `a` y `b`.
+- `divide(a, b)` que divide dos números `a` y `b`.
+- `exp(a, b)` eso lleva `a` al exponente (o potencia) de `b`.
+
+Asegúrese de devolver el resultado en cada definición de función.
+
+Pruebe su calculadora llamando a cada función una vez para asegurarse de que funciona.
