@@ -1263,4 +1263,77 @@ He aquí un resumen del capítulo:
 - Las listas tienen métodos integrados como `.append()`, `.insert()`, `.remove()`, `.pop()`.
 - Podemos iterar sobre una lista usando `for-in`.
 
+Por supuesto, puedo convertir tu texto sobre parámetros y argumentos en funciones a formato Markdown. Aquí está:
+
+```markdown
+# Parámetros y Argumentos
+
+Hasta ahora, las funciones que hemos creado no aceptan ninguna entrada, lo que significa que hacen lo mismo cada vez que son llamadas. ¡Una función puede ser mucho más útil que eso!
+
+## Introducción a los Parámetros
+
+A veces, queremos que nuestras funciones realicen una tarea específica, pero la tarea varía según las diferentes entradas. Y ahí es donde entran los **parámetros**.
+
+Los parámetros son variables que una función toma como entrada. Van dentro de los paréntesis en la definición de la función y se usan dentro de la función.
+
+## Ejemplo de Función sin Parámetros
+
+```python
+def happy_birthday():
+  print('Happy birthday to you')
+  print('Happy birthday to you')
+  print('Happy birthday dear friend')
+  print('Happy birthday to you')
+
+happy_birthday()
+```
+
+Esto imprime lo mismo cada vez.
+
+## Personalizando Funciones con Parámetros
+
+Digamos que queremos hacer la canción más personalizada. Por ejemplo, digamos el nombre de la persona en lugar de simplemente “querido amigo”, entonces podemos hacer esto:
+
+```python
+def happy_birthday(name):
+  print('Happy birthday to you')
+  print('Happy birthday to you')
+  print('Happy birthday dear ' + name)
+  print('Happy birthday to you')
+```
+
+Aquí, le dimos a la `happy_birthday()` función un `name` parámetro para que lo asuma. Entonces podemos usar la `name` variable dentro del cuerpo de la función.
+
+## Llamando a la Función con Argumentos
+
+Y más adelante en el programa, cuando llamamos a la `happy_birthday()` función, podemos agregar un argumento en la llamada.
+
+```python
+happy_birthday('Lillian')
+```
+
+La salida sería:
+
+```
+Happy birthday to you
+Happy birthday to you
+Happy birthday dear Lillian
+Happy birthday to you
+```
+
+## Diferencia entre Parámetro y Argumento
+
+Entonces, ¿cuál es la diferencia entre un parámetro y un argumento? ¿Por qué hay dos palabras para lo mismo?
+
+- El **parámetro** es la variable que figura entre paréntesis en la definición de la función (cuando definimos la función).
+- El **argumento** es el valor enviado a la función (cuando llamamos a la función).
+
+En el ejemplo anterior, la variable `name` es el parámetro y el valor 'Lillian' es el argumento.
+
+## Uso de Argumentos en Funciones Comunes
+
+Por cierto, ya hemos estado usando argumentos todo el tiempo, al llamar a la `print()` función, por ejemplo. En `print('Yo!')`, el 'Yo!' es el argumento.
+
+## Instrucciones
+
 
