@@ -567,3 +567,37 @@ Haz una lista de nombres `playlist` y agrega algunas canciones.
 
 
 ¡Ahora recorra la lista e imprima todo! 📻
+
+
+
+
+# Fortune Cookie Program
+
+**Fortune Cookie** es una pequeña galleta con un trozo de papel en su interior, llamada "fortuna", que suele ser una frase china con traducción y una lista de números de la suerte. Se sirven en restaurantes de Estados Unidos y Canadá. 🥠
+
+## Programa `Fortune_cookie.py`
+
+Este programa le dará al usuario fortunas aleatorias.
+
+### Función `fortune()`
+
+Defina una función llamada `fortune()`. Dentro de la función, imprima una fortuna aleatoria de la lista de opciones a continuación:
+
+- "Don't pursue happiness - create it."
+- "All things are difficult before they are easy."
+- "The early bird gets the worm, but the second mouse gets the cheese."
+- "Someone in your life needs a letter from you."
+- "Don't just think. Act!"
+- "Your heart will skip a beat."
+- "The fortune you search for is in another cookie."
+- "Help! I'm being held prisoner in a Chinese bakery!"
+
+Utilice el módulo `random` y la función `random.randint()` junto con una estructura `if/elif/else`.
+
+### Ejecución
+
+Llame a la función `fortune()` tres veces para ver qué fortunas obtiene.
+
+### Bonificación
+
+Si eres atrevido, reescribe la función sin usar `if/elif/else`.
