@@ -619,3 +619,38 @@ Cree un programa `calculadora.py` y defina estas cinco funciones:
 Asegúrese de devolver el resultado en cada definición de función.
 
 Pruebe su calculadora llamando a cada función una vez para asegurarse de que funciona.
+
+Aquí tienes el texto convertido a formato Markdown:
+
+
+# Programa de Autoservicio
+
+Cuando vas a un autoservicio como McDonald's, puedes pedir comida usando los números de artículo. Por ejemplo, ¡un Happy Meal podría ser el número 3!
+
+## Programa `drive_thru.py`
+
+Cree un programa `drive_thru.py` con el menú de su cadena de comida rápida favorita.
+
+### Función `get_item()`
+
+Defina una función `get_item()` que tome un parámetro, el número del artículo que desea pedir, y devuelva el nombre de ese artículo.
+
+Por ejemplo, si llamaste a la función con:
+
+- Valor del argumento 1, podría devolver '🍔 Cheeseburger'.
+- Valor del argumento 2, podría devolver '🍟 Fries'.
+- Valor del argumento 3, podría devolver '🥤 Soda'.
+- Valor del argumento 4, podría devolver '🍦 Ice Cream'.
+- Valor del argumento 5, podría devolver '🍪 Cookie'.
+
+Asegúrese de llamar a esta función varias veces para asegurarse de que funciona.
+
+### Menú de Bienvenida
+
+Cree un menú de bienvenida y póngalo en una función `welcome()`.
+
+### Programa Principal
+
+Cree un programa principal que reciba la entrada del usuario con `input()`.
+
+Espero que esto sea lo que estabas buscando. Si necesitas más ayuda, ¡aquí estoy para asistirte!
